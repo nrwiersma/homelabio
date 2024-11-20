@@ -37,3 +37,6 @@ _autosave-*
 # Lock files
 *.lck
 
+# Production files
+/production
+
