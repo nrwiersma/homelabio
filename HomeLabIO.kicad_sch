@@ -1,0 +1,391 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "938dda83-8624-4563-91c2-df725c684a81")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 166.37 67.31) (xy 180.34 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8394bb4a-50a0-40b5-a00c-a1db53ec8286")
+	)
+	(bus
+		(pts
+			(xy 115.57 95.25) (xy 115.57 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93dcd711-aec1-48de-a98b-5b507493312e")
+	)
+	(bus
+		(pts
+			(xy 121.92 95.25) (xy 115.57 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfa46d99-60de-48a7-9ad0-ba8146a43e0f")
+	)
+	(bus
+		(pts
+			(xy 110.49 120.65) (xy 121.92 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d536825e-e6cf-4d49-b791-e97946ed1345")
+	)
+	(bus
+		(pts
+			(xy 166.37 120.65) (xy 181.61 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2273b03-2f98-4138-912f-4496a37700a8")
+	)
+	(bus
+		(pts
+			(xy 104.14 80.01) (xy 104.14 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a27a6f-39e3-4f7b-a726-4146aa5179c5")
+	)
+	(bus
+		(pts
+			(xy 115.57 80.01) (xy 104.14 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef0d388a-67b8-4f0c-8f6f-5be7f514e5a4")
+	)
+	(sheet
+		(at 122.555 32.385)
+		(size 43.815 41.275)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0f7e1f65-12bd-4e02-aa22-415c85e14dc4")
+		(property "Sheetname" "CM4_HighSpeed"
+			(at 122.555 31.6734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CM4_HighSpeed.kicad_sch"
+			(at 122.555 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PCIe{PCIe}" input
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "db28edaa-f629-4876-a16c-eaa0c47b5589")
+		)
+		(instances
+			(project "HomeLabIO"
+				(path "/938dda83-8624-4563-91c2-df725c684a81"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 31.75)
+		(size 48.26 41.91)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "534e9bc1-67ee-4d82-aee9-2ebd69c5b207")
+		(property "Sheetname" "USB"
+			(at 62.23 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 62.23 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "UART{UART}" input
+			(at 104.14 73.66 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bd30d59f-2bf4-4d75-8410-602a2909a2bc")
+		)
+		(instances
+			(project "HomeLabIO"
+				(path "/938dda83-8624-4563-91c2-df725c684a81"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 91.44)
+		(size 48.26 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "98eb5bb7-2985-4fcc-8153-2530b826c61e")
+		(property "Sheetname" "Ethernet"
+			(at 62.23 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ethernet.kicad_sch"
+			(at 62.23 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ETH{ETH}" bidirectional
+			(at 110.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fb2972bf-777f-4066-b925-dd8e62fa42d9")
+		)
+		(instances
+			(project "HomeLabIO"
+				(path "/938dda83-8624-4563-91c2-df725c684a81"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 88.9)
+		(size 46.99 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b4bfb465-2ae0-4afa-a213-08638b3f0b2d")
+		(property "Sheetname" "SDCard"
+			(at 181.61 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SDCard.kicad_sch"
+			(at 181.61 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SD{SD}" bidirectional
+			(at 181.61 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e8b088df-002f-4db6-a73c-2658cb455682")
+		)
+		(instances
+			(project "HomeLabIO"
+				(path "/938dda83-8624-4563-91c2-df725c684a81"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 88.9)
+		(size 44.45 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ca370b1f-0541-49c0-b507-b29c9c38f03b")
+		(property "Sheetname" "CM4_GPIO"
+			(at 121.92 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CM4_GPOI.kicad_sch"
+			(at 121.92 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ETH{ETH}" bidirectional
+			(at 121.92 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b6613d5a-775f-4682-afed-66f883ba22f7")
+		)
+		(pin "SD{SD}" bidirectional
+			(at 166.37 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "faeccca0-11cc-4f04-b89d-3e0f035197d6")
+		)
+		(pin "UART{UART}" input
+			(at 121.92 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b5876912-5ba1-4716-840f-f663d27d1766")
+		)
+		(instances
+			(project "HomeLabIO"
+				(path "/938dda83-8624-4563-91c2-df725c684a81"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 31.75)
+		(size 48.26 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dc22fdde-180e-4231-b9f6-8fe5f9be630d")
+		(property "Sheetname" "PCIe"
+			(at 180.34 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PCIe.kicad_sch"
+			(at 180.34 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PCIe{PCIe}" input
+			(at 180.34 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aed4da63-d181-4305-8dd1-6233f7ba27b2")
+		)
+		(instances
+			(project "HomeLabIO"
+				(path "/938dda83-8624-4563-91c2-df725c684a81"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
