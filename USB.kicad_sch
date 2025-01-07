@@ -2869,7 +2869,7 @@
 		)
 		(uuid "fdd4606f-aef4-40a4-a938-7203317ceaa5")
 	)
-	(label "FTDI_USB_N"
+	(label "FTDI_USB_P"
 		(at 246.38 135.89 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2979,7 +2979,7 @@
 		)
 		(uuid "f3941475-37fe-44fc-96f0-456d921495e8")
 	)
-	(label "FTDI_USB_P"
+	(label "FTDI_USB_N"
 		(at 246.38 133.35 180)
 		(fields_autoplaced yes)
 		(effects
