@@ -1124,55 +1124,20 @@
 			)
 		)
 	)
-	(symbol "AP62301WU-7"
+	(symbol "AP3441SHE-7B"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 35.56 -2.54 0)
+			(at -6.35 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Value" "AP62301WU-7"
-			(at 35.56 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HomeLabIO:TSOT23-6"
-			(at 35.56 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf"
-			(at 35.56 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Step-down type Adjustable 800mV~7V 4.2V~18V 3A TSOT-26 DC-DC Converters ROHS"
-			(at 0 0 0)
+		(property "Value" "AP3441SHE-7B"
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1180,51 +1145,76 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AP62301WU-7"
-			(at 35.56 -5.08 0)
+		(property "Footprint" "HomeLabIO:U-DFN2020-8"
+			(at 1.524 -13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Diodes-Incorporated-AP3441SHE-7B_C2070918.pdf"
+			(at 0.254 -16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Step-down type Adjustable 2.7V~5.5V 600mV~5.5V 3A DFN2020-8-EP  DC-DC Converters ROHS"
+			(at -3.048 -11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Diodes Incorporated"
-			(at 35.56 -15.24 0)
+			(at -0.508 -18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C3194340"
-			(at 0 0 0)
+		(property "MPN" "AP3441SHE-7B"
+			(at -0.508 -19.812 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(symbol "AP62301WU-7_1_1"
+		(property "JLCPCB Part #" "C2070918"
+			(at -0.762 -21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AP3441SHE-7B_1_1"
 			(rectangle
-				(start 2.54 2.54)
-				(end 17.78 -12.7)
+				(start -6.35 6.35)
+				(end 6.35 -3.81)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type background)
 				)
 			)
-			(pin power_in line
-				(at 0 -10.16 0)
+			(pin passive line
+				(at -8.89 5.08 0)
 				(length 2.54)
-				(name "GND"
+				(name "FB"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1239,10 +1229,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 20.32 0 180)
+			(pin open_collector line
+				(at -8.89 2.54 0)
 				(length 2.54)
-				(name "SW"
+				(name "PG"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1258,7 +1248,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 0 0)
+				(at -8.89 0 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -1275,10 +1265,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 20.32 -10.16 180)
+			(pin power_in line
+				(at -8.89 -2.54 0)
 				(length 2.54)
-				(name "FB"
+				(name "PGND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1293,10 +1283,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 0 -5.08 0)
+			(pin no_connect line
+				(at 8.89 -2.54 180)
 				(length 2.54)
-				(name "EN"
+				(name "nc"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1311,10 +1301,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 20.32 -5.08 180)
+			(pin power_out line
+				(at 8.89 0 180)
 				(length 2.54)
-				(name "BST"
+				(name "LX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1322,6 +1312,60 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 8.89 2.54 180)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 8.89 5.08 180)
+				(length 2.54)
+				(name "SGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 1.27 -6.35 90)
+				(length 2.54)
+				(name "PAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
