@@ -1872,6 +1872,174 @@
 				)
 			)
 		)
+		(symbol "HomeLabIO:LED"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "HomeLabIO:L_1u_5.5A_Bourns-SRP3212A"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -2887,10 +3055,6 @@
 		(uuid "62acf197-1d5d-4e05-93e5-7583dcb533ea")
 	)
 	(no_connect
-		(at 114.3 88.9)
-		(uuid "6dda249d-66ac-437e-b1db-3721b7716f5a")
-	)
-	(no_connect
 		(at 63.5 66.04)
 		(uuid "8d0d477f-eb52-49e9-acdc-d6c82b39baa6")
 	)
@@ -3106,6 +3270,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 80.01) (xy 121.92 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36106655-e41f-4f54-81b4-023cbe138c1c")
+	)
+	(wire
+		(pts
 			(xy 201.93 116.84) (xy 209.55 116.84)
 		)
 		(stroke
@@ -3123,6 +3297,16 @@
 			(type default)
 		)
 		(uuid "381336c4-adb9-4c74-b83f-d233fe4d0627")
+	)
+	(wire
+		(pts
+			(xy 121.92 88.9) (xy 121.92 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aa30678-034f-400b-aedf-3b82f2d42050")
 	)
 	(wire
 		(pts
@@ -3186,6 +3370,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 55.88) (xy 121.92 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5262dc3d-7612-4e0f-88f2-aaf7635dc680")
+	)
+	(wire
+		(pts
 			(xy 201.93 119.38) (xy 205.74 119.38)
 		)
 		(stroke
@@ -3193,6 +3387,16 @@
 			(type default)
 		)
 		(uuid "57599281-ac60-4922-aa64-6d4f5c340093")
+	)
+	(wire
+		(pts
+			(xy 114.3 88.9) (xy 121.92 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aa40aa3-2494-4ac2-a95c-936f08702444")
 	)
 	(wire
 		(pts
@@ -3708,6 +3912,17 @@
 		)
 		(uuid "3791785d-dbd5-4b45-b28e-cfb818d8c2ab")
 	)
+	(label "+3.3V_PCIe"
+		(at 121.92 55.88 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "454112b8-7753-4971-b706-90e5994adec0")
+	)
 	(label "PCIe.CLK_P"
 		(at 49.53 114.3 0)
 		(fields_autoplaced yes)
@@ -3807,6 +4022,100 @@
 			(justify right)
 		)
 		(uuid "f1529fd0-46c6-41ac-b331-a56cf19f0e33")
+	)
+	(symbol
+		(lib_id "HomeLabIO:R")
+		(at 121.92 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00bf4319-2625-40ba-9240-5d5e55274896")
+		(property "Reference" "R6"
+			(at 119.634 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 121.92 83.566 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 123.698 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_KOA-Speer-Elec-RK73H1ETTP1001F_C131360.pdf"
+			(at 121.92 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 121.92 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RK73H1ETTP1001F"
+			(at 121.92 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KOA Speer Elec"
+			(at 121.92 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C131360"
+			(at 121.92 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec89e7a7-ad7c-4a3d-8375-81a760bec023")
+		)
+		(pin "2"
+			(uuid "346e1e1e-677b-4f51-af18-537fec186cfb")
+		)
+		(instances
+			(project "HomeLabIO"
+				(path "/938dda83-8624-4563-91c2-df725c684a81/dc22fdde-180e-4231-b9f6-8fe5f9be630d"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HomeLabIO:L_1u_5.5A_Bourns-SRP3212A")
@@ -5698,6 +6007,102 @@
 			(project "HomeLabIO"
 				(path "/938dda83-8624-4563-91c2-df725c684a81/dc22fdde-180e-4231-b9f6-8fe5f9be630d"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HomeLabIO:LED")
+		(at 121.92 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cffe08d5-19ad-4aec-8329-0e0fccd77c1f")
+		(property "Reference" "D7"
+			(at 118.11 71.4375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 118.11 71.4375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 121.92 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811100910_Lite-On-LTST-C191KGKT_C125098.pdf"
+			(at 121.92 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20mA 35mcd Colorless transparent lens -55℃~+85℃ 567.5nm~576.5nm Yellow Green 130° 75mW 2V 0603 LED Indication - Discrete ROHS"
+			(at 121.92 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-C191KGKT"
+			(at 121.92 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 121.92 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C125098"
+			(at 121.92 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5ac4f283-7203-450a-a25b-50cf44bba02f")
+		)
+		(pin "1"
+			(uuid "020c7b25-56e4-498b-ba99-a74edcd8f4c6")
+		)
+		(instances
+			(project "HomeLabIO"
+				(path "/938dda83-8624-4563-91c2-df725c684a81/dc22fdde-180e-4231-b9f6-8fe5f9be630d"
+					(reference "D7")
 					(unit 1)
 				)
 			)
