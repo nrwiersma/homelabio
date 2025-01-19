@@ -5973,7 +5973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/476591100?display=pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008122006_HOAUC-HYC79-HDMIA19-105_C711353.pdf"
 			(at 250.825 68.58 0)
 			(effects
 				(font
@@ -5991,25 +5991,27 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "476591100"
+		(property "MPN" "HYC79-HDMIA19-105"
 			(at 261.62 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Molex"
+		(property "Manufacturer" "HOAUC"
 			(at 261.62 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C5289795"
+		(property "JLCPCB Part #" "C711353"
 			(at 250.19 68.58 0)
 			(effects
 				(font
