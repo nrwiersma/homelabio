@@ -2977,6 +2977,12 @@
 		(uuid "4627761a-5c09-40a6-b358-46b8a788bcca")
 	)
 	(junction
+		(at 262.89 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c7aab54-6360-4e39-8aed-df5305e6507c")
+	)
+	(junction
 		(at 241.3 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3005,6 +3011,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b99640c4-966a-4145-949b-4b9ae30c5abe")
+	)
+	(junction
+		(at 267.97 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca017d44-5132-481d-8e6b-b3d14d7e6e85")
 	)
 	(junction
 		(at 147.32 31.75)
@@ -3200,6 +3212,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 121.92) (xy 257.81 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15ab81ba-6cf1-473f-a3c2-683627c75c1d")
+	)
+	(wire
+		(pts
 			(xy 251.46 121.92) (xy 257.81 121.92)
 		)
 		(stroke
@@ -3240,13 +3262,13 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 118.11) (xy 257.81 121.92)
+			(xy 262.89 133.35) (xy 262.89 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "328e6745-b063-4d03-994f-7e818b6385b9")
+		(uuid "2df22275-9ca1-45b3-b85a-36572b339f91")
 	)
 	(wire
 		(pts
@@ -3317,16 +3339,6 @@
 			(type solid)
 		)
 		(uuid "458959fd-5708-455f-b9db-d0b531fd62f0")
-	)
-	(wire
-		(pts
-			(xy 257.81 121.92) (xy 262.89 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a9ac09a-035b-4d61-98df-f8e17a94268e")
 	)
 	(wire
 		(pts
@@ -3430,7 +3442,17 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 121.92) (xy 257.81 127)
+			(xy 262.89 121.92) (xy 262.89 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64549ce5-db57-4ab0-b321-34ecf9dcf6c4")
+	)
+	(wire
+		(pts
+			(xy 267.97 121.92) (xy 267.97 127)
 		)
 		(stroke
 			(width 0)
@@ -3467,6 +3489,26 @@
 			(type solid)
 		)
 		(uuid "7072a2b8-2470-4cb2-94b0-2a83998d8e39")
+	)
+	(wire
+		(pts
+			(xy 257.81 121.92) (xy 257.81 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70db2fbf-5bf1-4aa1-a092-2aecfe879b4f")
+	)
+	(wire
+		(pts
+			(xy 267.97 121.92) (xy 267.97 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7438c4f6-59c0-4afc-9b8f-69622e170c82")
 	)
 	(wire
 		(pts
@@ -3567,6 +3609,16 @@
 			(type solid)
 		)
 		(uuid "a270f901-09e3-4efb-b4d3-531833a8d27b")
+	)
+	(wire
+		(pts
+			(xy 262.89 140.97) (xy 262.89 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5512a32-ac97-436a-89bd-e2429a1af880")
 	)
 	(bus
 		(pts
@@ -3747,6 +3799,16 @@
 			(type default)
 		)
 		(uuid "ecc4984e-bed0-42a4-826f-56267163057f")
+	)
+	(wire
+		(pts
+			(xy 267.97 121.92) (xy 262.89 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eceac8f3-2400-4fb3-84ec-6a37bdbe80ab")
 	)
 	(wire
 		(pts
@@ -3935,7 +3997,7 @@
 		(uuid "48c74229-98b2-4fe9-a3d1-f1de320bca2b")
 	)
 	(label "+3.3V_PCIe"
-		(at 257.81 127 0)
+		(at 267.97 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4217,6 +4279,100 @@
 			(project "HomeLabIO"
 				(path "/938dda83-8624-4563-91c2-df725c684a81/dc22fdde-180e-4231-b9f6-8fe5f9be630d"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HomeLabIO:R")
+		(at 262.89 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d1aff8b-f7a9-4e1e-91d0-5679dd21223b")
+		(property "Reference" "R7"
+			(at 260.604 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 262.89 128.016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 264.668 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_KOA-Speer-Elec-RK73H1ETTP1001F_C131360.pdf"
+			(at 262.89 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 262.89 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RK73H1ETTP1001F"
+			(at 262.89 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KOA Speer Elec"
+			(at 262.89 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C131360"
+			(at 262.89 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "724574d8-efef-4746-a6a5-9e545b4c55d3")
+		)
+		(pin "2"
+			(uuid "fd880789-a9ed-48af-9b9a-e4b929e75cf4")
+		)
+		(instances
+			(project "HomeLabIO"
+				(path "/938dda83-8624-4563-91c2-df725c684a81/dc22fdde-180e-4231-b9f6-8fe5f9be630d"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5037,6 +5193,101 @@
 		)
 	)
 	(symbol
+		(lib_id "HomeLabIO:LED")
+		(at 262.89 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79017f65-3aab-4b6d-baf1-07a73fd855eb")
+		(property "Reference" "D8"
+			(at 260.096 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 259.08 138.7475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 262.89 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811100910_Lite-On-LTST-C191KGKT_C125098.pdf"
+			(at 262.89 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20mA 35mcd Colorless transparent lens -55℃~+85℃ 567.5nm~576.5nm Yellow Green 130° 75mW 2V 0603 LED Indication - Discrete ROHS"
+			(at 262.89 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-C191KGKT"
+			(at 262.89 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 262.89 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C125098"
+			(at 262.89 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f949fda7-fd24-4b33-9025-d150a69df297")
+		)
+		(pin "1"
+			(uuid "2de90803-d6d8-4d98-9fc9-153bfaf89b6a")
+		)
+		(instances
+			(project "HomeLabIO"
+				(path "/938dda83-8624-4563-91c2-df725c684a81/dc22fdde-180e-4231-b9f6-8fe5f9be630d"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HomeLabIO:R")
 		(at 232.41 127 0)
 		(unit 1)
@@ -5605,6 +5856,73 @@
 			(project ""
 				(path "/938dda83-8624-4563-91c2-df725c684a81/dc22fdde-180e-4231-b9f6-8fe5f9be630d"
 					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 262.89 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3f22d27-8273-40dd-864d-22b7406883e1")
+		(property "Reference" "#PWR030"
+			(at 262.89 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b50dfb7-8753-4436-9fc8-8613cea8922a")
+		)
+		(instances
+			(project "HomeLabIO"
+				(path "/938dda83-8624-4563-91c2-df725c684a81/dc22fdde-180e-4231-b9f6-8fe5f9be630d"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -6466,7 +6784,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 262.89 121.92 270)
+		(at 267.97 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6475,7 +6793,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6eefbf1-efa0-4ae6-8284-c5417a55599c")
 		(property "Reference" "#FLG05"
-			(at 264.795 121.92 0)
+			(at 267.97 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6484,16 +6802,15 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 266.7 121.9199 90)
+			(at 267.97 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 121.92 0)
+			(at 267.97 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6502,7 +6819,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 262.89 121.92 0)
+			(at 267.97 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6511,7 +6828,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 262.89 121.92 0)
+			(at 267.97 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
