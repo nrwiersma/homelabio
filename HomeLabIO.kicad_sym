@@ -822,7 +822,7 @@
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 22.86 10.16 0)
+			(at 0 12.7 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -830,7 +830,7 @@
 			)
 		)
 		(property "Value" "AG5405"
-			(at 22.86 7.62 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -838,7 +838,7 @@
 			)
 		)
 		(property "Footprint" "HomeLabIO:AG5405_SLV"
-			(at 0 0 0)
+			(at -0.254 -16.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -848,7 +848,7 @@
 			)
 		)
 		(property "Datasheet" "https://silvertel.com/images/datasheets/Ag5400-datasheet-high%20Efficiency-30W-Power-Over-Ethernet-Plus-Module-PoE+PD.pdf"
-			(at 0 0 0)
+			(at -0.508 -10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -857,8 +857,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "Power over Ethernet - PoE PoE PD Module, 30W, 5V, High Efficiency, IEEE802.3at compliant, Single-in-line"
+			(at -16.51 -20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -867,7 +867,16 @@
 			)
 		)
 		(property "MPN" "AG5405"
-			(at 0 0 0)
+			(at 0 -13.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Silvertel"
+			(at 0.254 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -894,56 +903,19 @@
 			)
 		)
 		(symbol "AG5405_1_1"
-			(polyline
-				(pts
-					(xy 7.62 -15.24) (xy 38.1 -15.24)
-				)
+			(rectangle
+				(start -8.89 7.62)
+				(end 8.89 -7.62)
 				(stroke
-					(width 0.127)
+					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -15.24)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 38.1 -15.24) (xy 38.1 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 38.1 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin power_in line
-				(at 0 0 0)
+				(at -16.51 5.08 0)
 				(length 7.62)
 				(name "VIN+"
 					(effects
@@ -961,7 +933,7 @@
 				)
 			)
 			(pin power_in line
-				(at 45.72 0 180)
+				(at 16.51 5.08 180)
 				(length 7.62)
 				(name "-VDC"
 					(effects
@@ -979,7 +951,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -2.54 0)
+				(at -16.51 2.54 0)
 				(length 7.62)
 				(name "VIN-"
 					(effects
@@ -997,7 +969,7 @@
 				)
 			)
 			(pin output line
-				(at 0 -5.08 0)
+				(at -16.51 0 0)
 				(length 7.62)
 				(name "AT-DET"
 					(effects
@@ -1015,7 +987,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -7.62 0)
+				(at -16.51 -2.54 0)
 				(length 7.62)
 				(name "IC"
 					(effects
@@ -1033,7 +1005,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -10.16 0)
+				(at -16.51 -5.08 0)
 				(length 7.62)
 				(name "IC"
 					(effects
@@ -1051,7 +1023,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 45.72 -10.16 180)
+				(at 16.51 -5.08 180)
 				(length 7.62)
 				(name "IC"
 					(effects
@@ -1069,7 +1041,7 @@
 				)
 			)
 			(pin power_in line
-				(at 45.72 -7.62 180)
+				(at 16.51 -2.54 180)
 				(length 7.62)
 				(name "-VDC"
 					(effects
@@ -1087,7 +1059,7 @@
 				)
 			)
 			(pin power_in line
-				(at 45.72 -5.08 180)
+				(at 16.51 0 180)
 				(length 7.62)
 				(name "+VDC"
 					(effects
@@ -1105,7 +1077,7 @@
 				)
 			)
 			(pin output line
-				(at 45.72 -2.54 180)
+				(at 16.51 2.54 180)
 				(length 7.62)
 				(name "ADJ"
 					(effects
@@ -1567,7 +1539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufaturer" "Comchip Technology"
+		(property "Manufacturer" "Comchip Technology"
 			(at 0 -11.684 0)
 			(effects
 				(font

@@ -2989,12 +2989,6 @@
 		(uuid "5bbffbc9-f934-457c-94e0-f01113ef48a1")
 	)
 	(junction
-		(at 232.41 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "764d5788-ea83-4598-ba89-d1f7825d4c69")
-	)
-	(junction
 		(at 222.25 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3269,16 +3263,6 @@
 			(type default)
 		)
 		(uuid "2df22275-9ca1-45b3-b85a-36572b339f91")
-	)
-	(wire
-		(pts
-			(xy 232.41 123.19) (xy 232.41 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33510299-79ae-4f6f-9f54-a9ef38fc1eff")
 	)
 	(wire
 		(pts
@@ -6366,7 +6350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811100910_Lite-On-LTST-C191KGKT_C125098.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810231814_Lite-On-LTST-C191KFKT_C160478.pdf"
 			(at 121.92 69.85 0)
 			(effects
 				(font
@@ -6375,7 +6359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20mA 35mcd Colorless transparent lens -55℃~+85℃ 567.5nm~576.5nm Yellow Green 130° 75mW 2V 0603 LED Indication - Discrete ROHS"
+		(property "Description" "20mA 90mcd Colorless transparent lens -30℃~+85℃ 605nm Orange 130° 75mW 2V 0603 LED Indication - Discrete ROHS"
 			(at 121.92 69.85 0)
 			(effects
 				(font
@@ -6384,7 +6368,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LTST-C191KGKT"
+		(property "MPN" " LTST-C191KFKT"
 			(at 121.92 69.85 0)
 			(effects
 				(font
@@ -6402,7 +6386,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C125098"
+		(property "JLCPCB Part #" "C160478"
 			(at 121.92 69.85 0)
 			(effects
 				(font
