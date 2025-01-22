@@ -1573,7 +1573,7 @@
 					)
 				)
 				(pin passive line
-					(at -8.89 5.08 0)
+					(at 8.89 -2.54 180)
 					(length 2.54)
 					(name "FB"
 						(effects
@@ -1645,7 +1645,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 8.89 -2.54 180)
+					(at -8.89 5.08 0)
 					(length 2.54)
 					(name "nc"
 						(effects
@@ -3246,6 +3246,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 132.08) (xy 210.82 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24309274-7a79-44b6-9b98-44a157ecbfff")
+	)
+	(wire
+		(pts
 			(xy 241.3 121.92) (xy 232.41 121.92)
 		)
 		(stroke
@@ -3323,6 +3333,16 @@
 			(type solid)
 		)
 		(uuid "458959fd-5708-455f-b9db-d0b531fd62f0")
+	)
+	(wire
+		(pts
+			(xy 210.82 124.46) (xy 201.93 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46b8f64e-5b47-44ed-8cee-4e20c0a9d10b")
 	)
 	(wire
 		(pts
@@ -3513,16 +3533,6 @@
 			(type solid)
 		)
 		(uuid "82cf2da1-def5-483d-8c21-95236af3bad5")
-	)
-	(wire
-		(pts
-			(xy 176.53 116.84) (xy 184.15 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "842d1ddf-abb9-4402-b6ad-177a799abdc4")
 	)
 	(wire
 		(pts
@@ -4002,17 +4012,6 @@
 		)
 		(uuid "6f44fdea-d4b2-4bb8-9096-9b0a6dddb239")
 	)
-	(label "FB"
-		(at 176.53 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "92a3f85f-796d-4ee5-8820-70d3b513cd5f")
-	)
 	(label "+3.3V_PCIe"
 		(at 80.01 20.32 0)
 		(fields_autoplaced yes)
@@ -4023,17 +4022,6 @@
 			(justify left bottom)
 		)
 		(uuid "a7ef2285-36ab-4f77-b04a-30e0d582f178")
-	)
-	(label "FB"
-		(at 210.82 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "abc29965-14b6-463a-8420-0132bd8c4889")
 	)
 	(label "PCIe.RX_N"
 		(at 49.53 50.8 0)
