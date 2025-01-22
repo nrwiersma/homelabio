@@ -3765,6 +3765,16 @@
 		)
 		(uuid "fab3218e-8ef2-4668-b5d4-67976226b0b6")
 	)
+	(text "For break signalling"
+		(exclude_from_sim no)
+		(at 265.938 137.922 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "77150bab-d9fc-45d9-ba66-a51b267b526c")
+	)
 	(text "USB -> UART"
 		(exclude_from_sim no)
 		(at 28.194 95.504 0)
@@ -4497,7 +4507,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " CDBQR0130L-HF"
+		(property "MPN" "CDBQR0130L-HF"
 			(at 60.96 114.3 0)
 			(effects
 				(font
