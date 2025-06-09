@@ -419,4 +419,15 @@
 		(uuid "229b81d0-fa37-4da0-9a9c-0f4df08d1aea")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/HomeLabIO.3dshapes/CP2102N-A02-GQFN24R.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

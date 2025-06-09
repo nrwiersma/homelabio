@@ -749,4 +749,15 @@
 		(uuid "f00189af-5b2f-454a-a829-cbe2fd89bbb1")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/HomeLabIO.3dshapes/SLB9672XU20FW1612XTMA1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
