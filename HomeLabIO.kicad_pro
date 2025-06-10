@@ -68,7 +68,20 @@
           "width": 0.2083
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_overlap|196733959|104999923|47a5dc74-4e1a-4dd9-90e0-d0d6e21a2751|bd8752b1-5278-402f-bb79-21981914696f",
+          ""
+        ],
+        [
+          "silk_overlap|44327485|84461409|2725fbf9-51b6-401d-847a-da2a3a436bf3|efe0c988-f776-4979-9363-4799e0b58988",
+          ""
+        ],
+        [
+          "silk_overlap|81639000|95462343|0f2827c3-18f8-43e6-bc98-966879c3cce3|dd72c684-69b1-4fe5-88ca-d6875dd5b204",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
