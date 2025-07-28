@@ -1,7 +1,7 @@
-(footprint "CDBHM1100L-G"
-	(version 20240108)
+(footprint "TO-269AA"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.218388 -3.412419 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 0.64077 0.64077)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b2406c38-b747-4152-99bd-efe7d6ac7396")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -129,7 +117,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "21fcb090-4a0e-48c0-a4f1-8eec76f943d4")
 	)
@@ -220,47 +208,48 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "5b1c28e3-0352-4c4d-80ce-6d1ad98afbbf")
 	)
 	(pad "1" smd roundrect
 		(at -2.9 -1.225)
 		(size 1.91 0.91)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.115)
 		(uuid "1309c8ba-3697-4e84-8a7c-a68a7e2535de")
 	)
 	(pad "2" smd roundrect
 		(at -2.9 1.225)
 		(size 1.91 0.91)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.115)
 		(uuid "654557bc-947b-4b93-857e-94e4dd0cbc87")
 	)
 	(pad "3" smd roundrect
 		(at 2.9 1.225)
 		(size 1.91 0.91)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.115)
 		(uuid "9fba8b34-f55c-40a2-a658-d2b5d8d4aeae")
 	)
 	(pad "4" smd roundrect
 		(at 2.9 -1.225)
 		(size 1.91 0.91)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.115)
 		(uuid "d689daf8-3d47-41df-9035-8a2e77849bc1")
 	)
-	(model "${KIPRJMOD}/HomeLabIO.3dshapes/MBS4.step"
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/HomeLabIO.3dshapes/MB2S.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 1.7)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -90 -0 -90)
 		)
 	)
 )

@@ -6672,7 +6672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HomeLabIO:CDBHM1100L-G"
+		(property "Footprint" "HomeLabIO:TO-269AA"
 			(at 69.85 118.11 0)
 			(effects
 				(font
@@ -6681,7 +6681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.co.za/datasheet/2/80/CDBHM120L_G_Thru__CDBHM1100L_G_RevE-2505134.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590233338465591296"
 			(at 69.596 108.458 0)
 			(effects
 				(font
@@ -6690,7 +6690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bridge Rectifiers VR=100V IO=1A, Lo VF"
+		(property "Description" "-55℃~+150℃@(Tj) 200V 35A 500mA 5uA@200V TO-269AA Bridge Rectifiers ROHS"
 			(at 70.104 110.998 0)
 			(effects
 				(font
@@ -6699,7 +6699,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CDBHM1100L-G"
+		(property "MPN" "MB2S-E3/80"
 			(at 69.596 103.886 0)
 			(effects
 				(font
@@ -6708,7 +6708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Comchip Technology"
+		(property "Manufacturer" "Vishay Intertech"
 			(at 69.85 106.426 0)
 			(effects
 				(font
@@ -6717,7 +6717,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C17288728"
+		(property "JLCPCB Part #" "C2980314"
 			(at 70.866 101.6 0)
 			(effects
 				(font
@@ -7060,7 +7060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HomeLabIO:CDBHM1100L-G"
+		(property "Footprint" "HomeLabIO:TO-269AA"
 			(at 69.85 143.51 0)
 			(effects
 				(font
@@ -7069,7 +7069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.co.za/datasheet/2/80/CDBHM120L_G_Thru__CDBHM1100L_G_RevE-2505134.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590233338465591296"
 			(at 69.596 133.858 0)
 			(effects
 				(font
@@ -7078,7 +7078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bridge Rectifiers VR=100V IO=1A, Lo VF"
+		(property "Description" "-55℃~+150℃@(Tj) 200V 35A 500mA 5uA@200V TO-269AA Bridge Rectifiers ROHS"
 			(at 70.104 136.398 0)
 			(effects
 				(font
@@ -7087,7 +7087,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CDBHM1100L-G"
+		(property "MPN" "MB2S-E3/80"
 			(at 69.596 129.286 0)
 			(effects
 				(font
@@ -7096,7 +7096,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C17288728"
+		(property "Manufacturer" "Vishay Intertech"
 			(at 70.866 127 0)
 			(effects
 				(font
@@ -7105,7 +7105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Comchip Technology"
+		(property "JLCPCB Part #" "C2980314"
 			(at 69.85 131.826 0)
 			(effects
 				(font
