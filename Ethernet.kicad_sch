@@ -5544,7 +5544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_KOA-Speer-Elec-RK73H1ETTP4700F_C159983.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588929526764351488"
 			(at 204.47 81.28 0)
 			(effects
 				(font
@@ -5553,7 +5553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 470Ω 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 125mW 470Ω 50V Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 204.47 81.28 0)
 			(effects
 				(font
@@ -5562,7 +5562,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RK73H1ETTP4700F"
+		(property "Manufacturer" "YAGEO"
 			(at 204.47 81.28 90)
 			(effects
 				(font
@@ -5571,7 +5571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KOA Speer Elec"
+		(property "MPN" "RC0402FR-7W470RL"
 			(at 204.47 81.28 90)
 			(effects
 				(font
@@ -5580,7 +5580,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C159983"
+		(property "JLCPCB Part #" "C606172"
 			(at 204.47 81.28 90)
 			(effects
 				(font
@@ -6518,7 +6518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_KOA-Speer-Elec-RK73H1ETTP4700F_C159983.pdf"
+		(property "Datasheet" "HomeLabIO:R_0402_1005Metric"
 			(at 204.47 86.36 0)
 			(effects
 				(font
@@ -6527,7 +6527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 470Ω 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588929526764351488"
 			(at 204.47 86.36 0)
 			(effects
 				(font
@@ -6536,7 +6536,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RK73H1ETTP4700F"
+		(property "Description" "-55℃~+155℃ 125mW 470Ω 50V Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 204.47 86.36 90)
 			(effects
 				(font
@@ -6545,7 +6545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KOA Speer Elec"
+		(property "Manufacturer" "YAGEO"
 			(at 204.47 86.36 90)
 			(effects
 				(font
@@ -6554,7 +6554,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C159983"
+		(property "MPN" "RC0402FR-7W470RL"
 			(at 204.47 86.36 90)
 			(effects
 				(font
