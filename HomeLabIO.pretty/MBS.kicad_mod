@@ -1,4 +1,4 @@
-(footprint "TO-269AA"
+(footprint "MBS"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -14,8 +14,8 @@
 			)
 		)
 	)
-	(property "Value" "SOIC245P670X290-4N"
-		(at 5.071292 3.347631 0)
+	(property "Value" "MBS"
+		(at -0.02 3.64 0)
 		(layer "F.Fab")
 		(uuid "960483b3-7f1c-4a9a-b762-38a8b7b9fa9e")
 		(effects
@@ -51,8 +51,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -2.1 -2.48)
-		(end 2.1 -2.48)
+		(start -2 -2.48)
+		(end 2 -2.48)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -61,8 +61,8 @@
 		(uuid "033f91ac-cd37-431f-b749-20a3a26e1e44")
 	)
 	(fp_line
-		(start -2.1 -2.2)
-		(end -2.1 -2.48)
+		(start -2 -2.2)
+		(end -2 -2.48)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -71,8 +71,8 @@
 		(uuid "8186a078-9ca6-4a39-baa6-5a6bdc5c60be")
 	)
 	(fp_line
-		(start -2.1 2.1)
-		(end -2.1 2.48)
+		(start -2 2.1)
+		(end -2 2.48)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -81,8 +81,8 @@
 		(uuid "b3a0c231-70ba-465e-abce-318e568f34af")
 	)
 	(fp_line
-		(start -2.1 2.48)
-		(end 2.1 2.48)
+		(start -2 2.48)
+		(end 2 2.48)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -91,8 +91,8 @@
 		(uuid "a6569fb8-abae-41b2-a46e-e258934032cc")
 	)
 	(fp_line
-		(start 2.1 -2.48)
-		(end 2.1 -2.1)
+		(start 2 -2.48)
+		(end 2 -2.1)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -101,8 +101,8 @@
 		(uuid "e3dccfad-e0ca-4c9c-8889-c7b0a9d56cab")
 	)
 	(fp_line
-		(start 2.1 2.48)
-		(end 2.1 2.1)
+		(start 2 2.48)
+		(end 2 2.1)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -162,8 +162,8 @@
 		(uuid "2b87e6b6-5f78-4cd1-aac7-ceb438efb605")
 	)
 	(fp_line
-		(start -2.1 -2.48)
-		(end 2.1 -2.48)
+		(start -2 -2.48)
+		(end 2 -2.48)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -172,8 +172,8 @@
 		(uuid "4454c048-06e9-4c22-91d5-240f31fc6f78")
 	)
 	(fp_line
-		(start -2.1 2.48)
-		(end -2.1 -2.48)
+		(start -2 2.48)
+		(end -2 -2.48)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -182,8 +182,8 @@
 		(uuid "eb515b3f-c7cb-498e-b346-b13a02f29cce")
 	)
 	(fp_line
-		(start 2.1 -2.48)
-		(end 2.1 2.48)
+		(start 2 -2.48)
+		(end 2 2.48)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -192,8 +192,8 @@
 		(uuid "2dbb79e9-41a4-4c6a-9182-2ec24cb9703a")
 	)
 	(fp_line
-		(start 2.1 2.48)
-		(end -2.1 2.48)
+		(start 2 2.48)
+		(end -2 2.48)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -213,29 +213,29 @@
 		(uuid "5b1c28e3-0352-4c4d-80ce-6d1ad98afbbf")
 	)
 	(pad "1" smd roundrect
-		(at -2.9 -1.225)
-		(size 1.91 0.91)
+		(at -3 -1.2)
+		(size 1.84 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.115)
 		(uuid "1309c8ba-3697-4e84-8a7c-a68a7e2535de")
 	)
 	(pad "2" smd roundrect
-		(at -2.9 1.225)
-		(size 1.91 0.91)
+		(at -3 1.2)
+		(size 1.84 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.115)
 		(uuid "654557bc-947b-4b93-857e-94e4dd0cbc87")
 	)
 	(pad "3" smd roundrect
-		(at 2.9 1.225)
-		(size 1.91 0.91)
+		(at 3 1.2)
+		(size 1.84 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.115)
 		(uuid "9fba8b34-f55c-40a2-a658-d2b5d8d4aeae")
 	)
 	(pad "4" smd roundrect
-		(at 2.9 -1.225)
-		(size 1.91 0.91)
+		(at 3 -1.2)
+		(size 1.84 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.115)
 		(uuid "d689daf8-3d47-41df-9035-8a2e77849bc1")

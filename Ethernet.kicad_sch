@@ -6518,16 +6518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "HomeLabIO:R_0402_1005Metric"
-			(at 204.47 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588929526764351488"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588929526764351488"
 			(at 204.47 86.36 0)
 			(effects
 				(font
@@ -6537,7 +6528,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 125mW 470Ω 50V Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 204.47 86.36 90)
+			(at 204.47 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6555,6 +6546,15 @@
 			)
 		)
 		(property "MPN" "RC0402FR-7W470RL"
+			(at 204.47 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C606172"
 			(at 204.47 86.36 90)
 			(effects
 				(font
@@ -6672,7 +6672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HomeLabIO:TO-269AA"
+		(property "Footprint" "HomeLabIO:MBS"
 			(at 69.85 118.11 0)
 			(effects
 				(font
@@ -6681,7 +6681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590233338465591296"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586192233355202560"
 			(at 69.596 108.458 0)
 			(effects
 				(font
@@ -6690,7 +6690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+150℃@(Tj) 200V 35A 500mA 5uA@200V TO-269AA Bridge Rectifiers ROHS"
+		(property "Description" "-55℃~+125℃@(Tj) 100V 1A 200uA@100V 30A 850mV@1A MBS Bridge Rectifiers ROHS"
 			(at 70.104 110.998 0)
 			(effects
 				(font
@@ -6699,7 +6699,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MB2S-E3/80"
+		(property "MPN" "MB110S"
 			(at 69.596 103.886 0)
 			(effects
 				(font
@@ -6708,7 +6708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Intertech"
+		(property "Manufacturer" "MDD(Microdiode Semiconductor)"
 			(at 69.85 106.426 0)
 			(effects
 				(font
@@ -6717,7 +6717,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C2980314"
+		(property "JLCPCB Part #" "C94545"
 			(at 70.866 101.6 0)
 			(effects
 				(font
@@ -7060,7 +7060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HomeLabIO:TO-269AA"
+		(property "Footprint" "HomeLabIO:MBS"
 			(at 69.85 143.51 0)
 			(effects
 				(font
@@ -7069,7 +7069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590233338465591296"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586192233355202560"
 			(at 69.596 133.858 0)
 			(effects
 				(font
@@ -7078,7 +7078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+150℃@(Tj) 200V 35A 500mA 5uA@200V TO-269AA Bridge Rectifiers ROHS"
+		(property "Description" "-55℃~+125℃@(Tj) 100V 1A 200uA@100V 30A 850mV@1A MBS Bridge Rectifiers ROHS"
 			(at 70.104 136.398 0)
 			(effects
 				(font
@@ -7087,7 +7087,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MB2S-E3/80"
+		(property "MPN" "MB110S"
 			(at 69.596 129.286 0)
 			(effects
 				(font
@@ -7096,7 +7096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Intertech"
+		(property "Manufacturer" "MDD(Microdiode Semiconductor)"
 			(at 70.866 127 0)
 			(effects
 				(font
@@ -7105,7 +7105,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C2980314"
+		(property "JLCPCB Part #" "C94545"
 			(at 69.85 131.826 0)
 			(effects
 				(font
