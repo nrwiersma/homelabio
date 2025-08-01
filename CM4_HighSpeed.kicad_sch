@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "01756cb9-af90-4258-995d-ab48283eec12")
 	(paper "A4")
+	(title_block
+		(title "HomeLabIO")
+		(rev "v0.3")
+	)
 	(lib_symbols
 		(symbol "Device:Polyfuse_Small"
 			(pin_numbers
@@ -5313,7 +5317,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "CM4-HS"
 			(at 82.55 30.48 0)
 			(effects
 				(font

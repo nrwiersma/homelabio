@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "56201662-dbd6-45c3-8474-f3fffe26e374")
 	(paper "A4")
+	(title_block
+		(title "HomeLabIO")
+		(rev "v0.3")
+	)
 	(lib_symbols
 		(symbol "Connector:Bus_M.2_Socket_M"
 			(exclude_from_sim no)

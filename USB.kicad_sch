@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "10e83dec-d3b5-4ce1-9867-97d229305636")
 	(paper "A4")
+	(title_block
+		(title "HomeLabIO")
+		(rev "v0.3")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names

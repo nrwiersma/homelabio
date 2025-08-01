@@ -3,13 +3,17 @@
 [![GitHub release](https://img.shields.io/github/release/nrwiersma/homelabio.svg)](https://github.com/nrwiersma/homelabio/releases)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/nrwiersma/homelabio/master/LICENSE)
 
-`HomeLabIO` is a Compute Module 4 carrier board designed to fit in a 19" rack using 1U of space.
+`HomeLabIO` is a Compute Module 4/5 carrier board designed to fit in a 19" rack using 1U of space.
 
 ![board image](assets/assembled.png)
+
+[Interactive BOM](https://htmlpreview.github.io/?https://github.com/nrwiersma/homelabio/blob/TPM2/bom/ibom.html) [(provided by InteractiveHtmlBom)
+](https://github.com/openscopeproject/InteractiveHtmlBom)
 
 Features:
 
 * Power over Ethernet 802.3at (PoE+)
+* TPM 2.0
 * NVMe SSD up to 2280
 * HDMI
 * USB-C UART communication on the front
@@ -21,6 +25,10 @@ This is my first attempt at making a PCB and was largely a practical learning ex
 
 The schematic is heavily inspired by the [Raspberry Pi CM4IO](https://datasheets.raspberrypi.com/cm4io/cm4io-datasheet.pdf)
 and the [HomeAssistant Yellow](https://github.com/NabuCasa/yellow). 
+
+## Config
+
+### Fan
 
 ## PCB Fabrication and Assembly by PCBWay
 

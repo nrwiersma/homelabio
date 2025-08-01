@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "938dda83-8624-4563-91c2-df725c684a81")
 	(paper "A4")
+	(title_block
+		(title "HomeLabIO")
+		(rev "v0.3")
+	)
 	(lib_symbols)
 	(bus
 		(pts
