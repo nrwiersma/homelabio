@@ -6441,7 +6441,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " LTST-C191KFKT"
+		(property "MPN" "LTST-C191KFKT"
 			(at 121.92 69.85 0)
 			(effects
 				(font
