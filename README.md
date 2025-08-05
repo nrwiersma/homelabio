@@ -7,9 +7,6 @@
 
 ![board image](assets/assembled.png)
 
-[Interactive BOM](https://htmlpreview.github.io/?https://github.com/nrwiersma/homelabio/blob/TPM2/bom/ibom.html) [(provided by InteractiveHtmlBom)
-](https://github.com/openscopeproject/InteractiveHtmlBom)
-
 Features:
 
 * Power over Ethernet 802.3at (PoE+)
@@ -29,6 +26,32 @@ and the [HomeAssistant Yellow](https://github.com/NabuCasa/yellow).
 ## Config
 
 ### Fan
+
+To configure the fan to run based on the core temperature, change the `/boot/firmware/config.txt` as follows:
+
+#### CM4
+
+Add the following under the `[all]` section:
+```ini
+dtoverlay=i2c-fan,emc2301,i2c_csi_dsi
+```
+
+#### CM5
+
+Uncomment the following line:
+```ini
+dtparam=i2c_arm=on
+```
+
+Add the following under the `[all]` section:
+```ini
+dtoverlay=i2c-fan,emc2301,i2c_csi_dsi0
+```
+
+## BOM
+
+See the [Interactive BOM](https://htmlpreview.github.io/?https://github.com/nrwiersma/homelabio/blob/TPM2/bom/ibom.html) [(provided by InteractiveHtmlBom)
+](https://github.com/openscopeproject/InteractiveHtmlBom).
 
 ## PCB Fabrication and Assembly by PCBWay
 
