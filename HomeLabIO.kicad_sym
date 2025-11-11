@@ -6294,16 +6294,16 @@
 				)
 			)
 		)
-		(symbol "EMC2301_0_1"
+		(symbol "EMC2301_1_1"
 			(rectangle
 				(start -8.89 12.7)
 				(end 5.08 0)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)

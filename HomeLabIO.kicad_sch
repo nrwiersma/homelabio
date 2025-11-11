@@ -11,7 +11,17 @@
 	(lib_symbols)
 	(bus
 		(pts
-			(xy 166.37 67.31) (xy 180.34 67.31)
+			(xy 110.49 104.14) (xy 121.92 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e711c03-8d70-43e2-acf5-a7d42796b494")
+	)
+	(bus
+		(pts
+			(xy 166.37 90.17) (xy 180.34 90.17)
 		)
 		(stroke
 			(width 0)
@@ -21,27 +31,7 @@
 	)
 	(bus
 		(pts
-			(xy 115.57 95.25) (xy 115.57 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93dcd711-aec1-48de-a98b-5b507493312e")
-	)
-	(bus
-		(pts
-			(xy 121.92 95.25) (xy 115.57 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfa46d99-60de-48a7-9ad0-ba8146a43e0f")
-	)
-	(bus
-		(pts
-			(xy 110.49 120.65) (xy 121.92 120.65)
+			(xy 110.49 119.38) (xy 121.92 119.38)
 		)
 		(stroke
 			(width 0)
@@ -51,7 +41,7 @@
 	)
 	(bus
 		(pts
-			(xy 166.37 120.65) (xy 181.61 120.65)
+			(xy 166.37 118.11) (xy 181.61 118.11)
 		)
 		(stroke
 			(width 0)
@@ -59,34 +49,13 @@
 		)
 		(uuid "e2273b03-2f98-4138-912f-4496a37700a8")
 	)
-	(bus
-		(pts
-			(xy 104.14 80.01) (xy 104.14 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2a27a6f-39e3-4f7b-a726-4146aa5179c5")
-	)
-	(bus
-		(pts
-			(xy 115.57 80.01) (xy 104.14 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef0d388a-67b8-4f0c-8f6f-5be7f514e5a4")
-	)
 	(sheet
-		(at 122.555 32.385)
-		(size 43.815 41.275)
+		(at 122.555 69.85)
+		(size 43.815 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -95,17 +64,16 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "0f7e1f65-12bd-4e02-aa22-415c85e14dc4")
-		(property "Sheetname" "CM4_HighSpeed"
-			(at 122.555 31.6734 0)
+		(property "Sheetname" "CM4 HighSpeed"
+			(at 143.002 82.804 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2 2)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "CM4_HighSpeed.kicad_sch"
-			(at 122.555 74.2446 0)
+			(at 122.555 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -114,7 +82,7 @@
 			)
 		)
 		(pin "PCIe{PCIe}" input
-			(at 166.37 67.31 0)
+			(at 166.37 90.17 0)
 			(uuid "db28edaa-f629-4876-a16c-eaa0c47b5589")
 			(effects
 				(font
@@ -132,13 +100,12 @@
 		)
 	)
 	(sheet
-		(at 62.23 31.75)
-		(size 48.26 41.91)
+		(at 62.23 99.06)
+		(size 48.26 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -148,16 +115,16 @@
 		)
 		(uuid "534e9bc1-67ee-4d82-aee9-2ebd69c5b207")
 		(property "Sheetname" "USB"
-			(at 62.23 31.0384 0)
+			(at 65.786 104.394 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2 2)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Sheetfile" "USB.kicad_sch"
-			(at 62.23 74.2446 0)
+			(at 62.23 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -166,13 +133,13 @@
 			)
 		)
 		(pin "UART{UART}" input
-			(at 104.14 73.66 270)
+			(at 110.49 104.14 0)
 			(uuid "bd30d59f-2bf4-4d75-8410-602a2909a2bc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -184,13 +151,12 @@
 		)
 	)
 	(sheet
-		(at 62.23 91.44)
-		(size 48.26 34.29)
+		(at 62.23 114.3)
+		(size 48.26 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -200,16 +166,16 @@
 		)
 		(uuid "98eb5bb7-2985-4fcc-8153-2530b826c61e")
 		(property "Sheetname" "Ethernet"
-			(at 62.23 90.7284 0)
+			(at 65.024 119.38 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2 2)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Sheetfile" "Ethernet.kicad_sch"
-			(at 62.23 126.3146 0)
+			(at 62.23 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -218,7 +184,7 @@
 			)
 		)
 		(pin "ETH{ETH}" bidirectional
-			(at 110.49 120.65 0)
+			(at 110.49 119.38 0)
 			(uuid "fb2972bf-777f-4066-b925-dd8e62fa42d9")
 			(effects
 				(font
@@ -236,13 +202,12 @@
 		)
 	)
 	(sheet
-		(at 181.61 88.9)
-		(size 46.99 36.83)
+		(at 181.61 114.3)
+		(size 46.99 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -251,17 +216,17 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b4bfb465-2ae0-4afa-a213-08638b3f0b2d")
-		(property "Sheetname" "SDCard"
-			(at 181.61 88.1884 0)
+		(property "Sheetname" "SD Card"
+			(at 225.552 118.11 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2 2)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
 		(property "Sheetfile" "SDCard.kicad_sch"
-			(at 181.61 126.3146 0)
+			(at 181.61 123.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -270,7 +235,7 @@
 			)
 		)
 		(pin "SD{SD}" bidirectional
-			(at 181.61 120.65 180)
+			(at 181.61 118.11 180)
 			(uuid "e8b088df-002f-4db6-a73c-2658cb455682")
 			(effects
 				(font
@@ -288,13 +253,12 @@
 		)
 	)
 	(sheet
-		(at 121.92 88.9)
-		(size 44.45 38.1)
+		(at 121.92 99.06)
+		(size 44.45 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -303,17 +267,16 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ca370b1f-0541-49c0-b507-b29c9c38f03b")
-		(property "Sheetname" "CM4_GPIO"
-			(at 121.92 88.1884 0)
+		(property "Sheetname" "CM4 GPIO"
+			(at 143.002 112.268 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2 2)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "CM4_GPOI.kicad_sch"
-			(at 121.92 127.5846 0)
+			(at 121.92 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -322,7 +285,7 @@
 			)
 		)
 		(pin "ETH{ETH}" bidirectional
-			(at 121.92 120.65 180)
+			(at 121.92 119.38 180)
 			(uuid "b6613d5a-775f-4682-afed-66f883ba22f7")
 			(effects
 				(font
@@ -332,7 +295,7 @@
 			)
 		)
 		(pin "SD{SD}" bidirectional
-			(at 166.37 120.65 0)
+			(at 166.37 118.11 0)
 			(uuid "faeccca0-11cc-4f04-b89d-3e0f035197d6")
 			(effects
 				(font
@@ -342,7 +305,7 @@
 			)
 		)
 		(pin "UART{UART}" input
-			(at 121.92 95.25 180)
+			(at 121.92 104.14 180)
 			(uuid "b5876912-5ba1-4716-840f-f663d27d1766")
 			(effects
 				(font
@@ -360,13 +323,12 @@
 		)
 	)
 	(sheet
-		(at 180.34 31.75)
-		(size 48.26 40.64)
+		(at 180.34 85.09)
+		(size 48.26 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -376,16 +338,16 @@
 		)
 		(uuid "dc22fdde-180e-4231-b9f6-8fe5f9be630d")
 		(property "Sheetname" "PCIe"
-			(at 180.34 31.0384 0)
+			(at 225.298 89.916 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2 2)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
 		(property "Sheetfile" "PCIe.kicad_sch"
-			(at 180.34 72.9746 0)
+			(at 180.34 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -394,7 +356,7 @@
 			)
 		)
 		(pin "PCIe{PCIe}" input
-			(at 180.34 67.31 180)
+			(at 180.34 90.17 180)
 			(uuid "aed4da63-d181-4305-8dd1-6233f7ba27b2")
 			(effects
 				(font

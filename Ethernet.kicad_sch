@@ -9,7 +9,1582 @@
 		(rev "v0.3")
 	)
 	(lib_symbols
-		(symbol "HomeLabIO:AG5405"
+		(symbol "Hardware Components:BR_MB110S"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BR"
+				(at 0.762 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MB110S"
+				(at 0.762 -5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Hardware Components:MB110S"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586192233355202560"
+				(at 0.254 -9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "-55℃~+125℃@(Tj) 100V 1A 200uA@100V 30A 850mV@1A MBS Bridge Rectifiers ROHS"
+				(at -0.254 -7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MB110S"
+				(at 0.254 -14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "MDD(Microdiode Semiconductor)"
+				(at 0 -11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C94545"
+				(at -1.016 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BR_MB110S_1_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy 0 -5.08) (xy 5.08 0) (xy 0 5.08) (xy -5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy -2.54 1.27) (xy -1.905 3.175) (xy -3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -3.81 -2.54) (xy -1.905 -3.175) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 2.54 3.81) (xy 3.175 1.905) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.905) (xy 1.27 -2.54) (xy 2.54 -3.81) (xy 3.175 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hardware Components:C_100n_0402_16V"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -3.302 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100n"
+				(at 3.302 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Hardware Components:C_0402_1005Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CL05B104KO5NNNC"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C1525"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_100n_0402_16V_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_100n_0402_16V_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hardware Components:C_Pol_470u_25V_NCC_HA0-G"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "470u"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Hardware Components:C_Pol_Elec_8x10"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2202040100_NCC-Nippon-Chemi-Con-EMZR250ARA471MHA0G_C2164760.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "470uF 25V 850mA@100kHz 80mΩ@100kHz ±20% SMD,D8xL10mm  Aluminum Electrolytic Capacitors - SMD ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "EMZR250ARA471MHA0G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" " NCC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C2164760"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Pol_470u_25V_NCC_HA0-G_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Pol_470u_25V_NCC_HA0-G_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hardware Components:D_SMAJ58A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -2.032 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "SMAJ58A"
+				(at 2.794 -10.795 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Hardware Components:D_SMAJ58A"
+				(at -0.508 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588880031459893248"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMAJ58A, Uni-Directional TVS Diode, 400W, 2-Pin DO-214AC | Littelfuse SMAJ58A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Littelfuse Inc."
+				(at 0 -9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SMAJ58A"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C151246"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_SMAJ58A_0_0"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.905) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hardware Components:ESD_TPD4EUSB30"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESD_TPD4EUSB30"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Hardware Components:TPD4EUSB30_USON-10"
+				(at -24.13 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A 45W 8V 7V Unidirectional 5.5V USON-10(1x2.5) ESD and Surge Protection (TVS/ESD) ROHS"
+				(at -0.762 10.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "TPD4EUSB30DQAR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C90627"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "ESD protection USB 3.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "USON*2.5x1.0mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESD_TPD4EUSB30_0_0"
+				(rectangle
+					(start -5.715 6.477)
+					(end 5.715 -6.604)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -6.604) (xy -3.175 6.477)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.477) (xy 0 -6.604)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 6.477) (xy 3.175 -6.604)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESD_TPD4EUSB30_0_1"
+				(polyline
+					(pts
+						(xy -7.747 2.54) (xy -3.175 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -5.715 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.715 -2.54)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -6.35 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -6.35 3.81) (xy -5.715 5.08) (xy -5.08 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -3.81) (xy -6.35 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -6.35 -5.08) (xy -5.715 -3.81) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.175 6.477)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -3.175 2.54)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -3.175 -6.604)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -3.81 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -3.81 3.81) (xy -3.175 5.08) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy -3.81 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -3.81 -5.08) (xy -3.175 -3.81) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0.889) (xy -1.016 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 6.477)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.604) (xy 0 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -6.604)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.889) (xy -0.635 0.889)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.889) (xy 1.016 1.143)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.381) (xy -0.635 -0.381) (xy 0 0.889) (xy 0.635 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 6.477)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 3.175 -2.54)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 3.175 -6.604)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.81) (xy 2.54 3.81) (xy 3.175 5.08) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -3.81) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy 2.54 -5.08) (xy 3.175 -3.81) (xy 3.81 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.715 2.54)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 3.81) (xy 5.08 3.81) (xy 5.715 5.08) (xy 6.35 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -3.81) (xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -5.08) (xy 5.08 -5.08) (xy 5.715 -3.81) (xy 6.35 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.715 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 3.175 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESD_TPD4EUSB30_1_1"
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "D1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "D1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "D2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "D2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hardware Components:POE_AG5405"
 			(pin_names
 				(offset 0.254)
 			)
@@ -17,23 +1592,24 @@
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 12.7 0)
+				(at -7.112 8.89 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "AG5405"
-				(at 0 10.16 0)
+			(property "Value" "POE_AG5405"
+				(at 22.86 10.16 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "HomeLabIO:AG5405_SLV"
-				(at -0.254 -16.764 0)
+			(property "Footprint" "Hardware Components:POE_AG5405"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -43,7 +1619,7 @@
 				)
 			)
 			(property "Datasheet" "https://silvertel.com/images/datasheets/Ag5400-datasheet-high%20Efficiency-30W-Power-Over-Ethernet-Plus-Module-PoE+PD.pdf"
-				(at -0.508 -10.668 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -53,7 +1629,7 @@
 				)
 			)
 			(property "Description" "Power over Ethernet - PoE PoE PD Module, 30W, 5V, High Efficiency, IEEE802.3at compliant, Single-in-line"
-				(at -16.51 -20.574 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -62,7 +1638,7 @@
 				)
 			)
 			(property "MPN" "AG5405"
-				(at 0 -13.716 0)
+				(at 22.86 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -71,7 +1647,7 @@
 				)
 			)
 			(property "Manufacturer" "Silvertel"
-				(at 0.254 -19.05 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -97,7 +1673,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AG5405_1_1"
+			(symbol "POE_AG5405_1_1"
 				(rectangle
 					(start -8.89 7.62)
 					(end 8.89 -7.62)
@@ -292,338 +1868,29 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "HomeLabIO:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "HomeLabIO:CDBHM1100L-G"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "HomeLabIO:CDBHM1100L-G"
-				(at 0.254 7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.co.za/datasheet/2/80/CDBHM120L_G_Thru__CDBHM1100L_G_RevE-2505134.pdf"
-				(at 0.254 -9.652 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Bridge Rectifiers VR=100V IO=1A, Lo VF"
-				(at -0.254 -7.112 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "CDBHM1100L-G"
-				(at 0.254 -14.224 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Comchip Technology"
-				(at 0 -11.684 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB Part #" "C17288728"
-				(at -1.016 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CDBHM1100L-G_0_1"
-				(rectangle
-					(start -3.81 5.08)
-					(end 3.81 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CDBHM1100L-G_1_1"
-				(pin power_out line
-					(at -8.89 2.54 0)
-					(length 5.08)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -8.89 -2.54 0)
-					(length 5.08)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 8.89 2.54 180)
-					(length 5.08)
-					(name "AC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 8.89 -2.54 180)
-					(length 5.08)
-					(name "AC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "HomeLabIO:LPJG0926HENL"
+		(symbol "Hardware Components:RJ45_USAKRO_DGUK111Q334AB2A2DP057"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 0 0)
+				(at -17.78 76.2 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "LPJG0926HENL"
-				(at 0 0 0)
+			(property "Value" "DGUK111Q334AB2A2DP057"
+				(at -12.954 -0.254 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "HomeLabIO:TRJG0926HENL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.link-pp.com/m/?product/201804116137.html"
+			(property "Footprint" "Hardware Components:RJ45_USAKRO_DGUK111Q334AB2A2DP057"
 				(at 0 0 0)
 				(effects
 					(font
@@ -632,7 +1899,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LINK-PP"
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312221754_USAKRO-DGUK111Q334AB2A2DP057_C19725175.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -641,7 +1908,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "LPJG0926HENL"
+			(property "Description" "Plugin  Ethernet Connectors / Modular Connectors (RJ45 RJ11) ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -650,7 +1917,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB Part #" "C2874230"
+			(property "MPN" "DGUK111Q334AB2A2DP057"
 				(at 0 0 0)
 				(effects
 					(font
@@ -659,7 +1926,25 @@
 					(hide yes)
 				)
 			)
-			(symbol "LPJG0926HENL_0_1"
+			(property "Manufacturer" "USAKRO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C19725175"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RJ45_USAKRO_DGUK111Q334AB2A2DP057_0_1"
 				(polyline
 					(pts
 						(xy 1.27 60.96) (xy -5.08 60.96) (xy -5.08 68.58) (xy -2.54 68.58) (xy -5.08 68.58)
@@ -685,7 +1970,7 @@
 					)
 				)
 			)
-			(symbol "LPJG0926HENL_1_1"
+			(symbol "RJ45_USAKRO_DGUK111Q334AB2A2DP057_1_1"
 				(rectangle
 					(start -17.78 1.27)
 					(end 12.7 74.93)
@@ -2504,7 +3789,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "HomeLabIO:R"
+		(symbol "Hardware Components:R_470_0402_50V"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2515,14 +3800,14 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.032 0 90)
+				(at -2.032 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "R"
+			(property "Value" "470"
 				(at 0 0 90)
 				(effects
 					(font
@@ -2530,7 +3815,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Hardware Components:R_0402_1005Metric"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -2539,7 +3824,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588929526764351488"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2548,8 +3833,35 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" "-55℃~+155℃ 125mW 470Ω 50V Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RC0402FR-7W470RL"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C606172"
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2575,7 +3887,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
+			(symbol "R_470_0402_50V_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -2588,7 +3900,7 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "R_470_0402_50V_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -2618,959 +3930,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "HomeLabIO:SMAJ58A"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 2.794 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "SMAJ58A"
-				(at 2.794 -10.795 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "HomeLabIO:SMAJ58A"
-				(at -0.508 -9.144 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMAJ58A, Uni-Directional TVS Diode, 400W, 2-Pin DO-214AC | Littelfuse SMAJ58A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Littelfuse Inc."
-				(at 0 -9.906 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" "SMAJ58A"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB Part # " "C151246"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SMAJ58A_0_0"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.905) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "HomeLabIO:TPD4EUSB30"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -0.635 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TPD4EUSB30"
-				(at 8.89 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SON:USON-10_2.5x1.0mm_P0.5mm"
-				(at -24.13 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "4-Channel ESD Protection for Super-Speed USB 3.0 Interface, USON-10"
-				(at -0.762 10.668 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "TPD4EUSB30DQAR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "ESD protection USB 3.0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "USON*2.5x1.0mm*P0.5mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TPD4EUSB30_0_0"
-				(rectangle
-					(start -5.715 6.477)
-					(end 5.715 -6.604)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -6.604) (xy -3.175 6.477)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 6.477) (xy 0 -6.604)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 6.477) (xy 3.175 -6.604)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TPD4EUSB30_0_1"
-				(polyline
-					(pts
-						(xy -7.747 2.54) (xy -3.175 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -2.54) (xy -5.715 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.715 -2.54)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -6.35 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 3.81) (xy -6.35 3.81) (xy -5.715 5.08) (xy -5.08 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -3.81) (xy -6.35 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy -6.35 -5.08) (xy -5.715 -3.81) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -3.175 6.477)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -3.175 2.54)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -3.175 -6.604)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -3.81 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 3.81) (xy -3.81 3.81) (xy -3.175 5.08) (xy -2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.81) (xy -3.81 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -5.08) (xy -3.81 -5.08) (xy -3.175 -3.81) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0.889) (xy -1.016 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 6.477)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -6.604) (xy 0 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -6.604)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.889) (xy -0.635 0.889)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.889) (xy 1.016 1.143)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.381) (xy -0.635 -0.381) (xy 0 0.889) (xy 0.635 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.175 6.477)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 3.175 -2.54)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 3.175 -6.604)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 5.08) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 3.81) (xy 2.54 3.81) (xy 3.175 5.08) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -3.81) (xy 2.54 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -5.08) (xy 2.54 -5.08) (xy 3.175 -3.81) (xy 3.81 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.715 2.54)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 5.08) (xy 5.08 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 3.81) (xy 5.08 3.81) (xy 5.715 5.08) (xy 6.35 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -3.81) (xy 5.08 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -5.08) (xy 5.08 -5.08) (xy 5.715 -3.81) (xy 6.35 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 5.715 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 3.175 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TPD4EUSB30_1_1"
-				(pin passive line
-					(at -12.7 2.54 0)
-					(length 5.08)
-					(name "D1+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 2.54 0)
-					(length 5.08)
-					(hide yes)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -2.54 0)
-					(length 5.08)
-					(name "D1-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -2.54 0)
-					(length 5.08)
-					(hide yes)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 90)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 2.54 180)
-					(length 5.08)
-					(name "D2+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 2.54 180)
-					(length 5.08)
-					(hide yes)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -2.54 180)
-					(length 5.08)
-					(name "D2-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -2.54 180)
-					(length 5.08)
-					(hide yes)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4160,10 +4519,22 @@
 		(uuid "44eb3853-f7a9-41a9-bf32-6ebdc1f7cc2b")
 	)
 	(junction
+		(at 102.87 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c18dc2e-6132-423b-add2-8ff0ef336a2a")
+	)
+	(junction
 		(at 152.4 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55398c8e-68cc-434e-b029-784e761bd896")
+	)
+	(junction
+		(at 87.63 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64839a04-cbac-45c6-a37f-7783cff5ace2")
 	)
 	(junction
 		(at 209.55 78.74)
@@ -4184,22 +4555,10 @@
 		(uuid "919be504-953f-4888-aa85-2fe34ac5093d")
 	)
 	(junction
-		(at 96.52 127)
+		(at 102.87 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "98aac3a0-fcd8-4efe-8aed-f8846b2a360f")
-	)
-	(junction
-		(at 97.79 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1d76004-b403-43dc-a93a-6cd856ade24f")
-	)
-	(junction
-		(at 102.87 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b76ed9a4-8829-4b67-ad47-0f1169788d7a")
+		(uuid "baaf8547-2909-4c4a-b041-13db8baded9b")
 	)
 	(junction
 		(at 157.48 130.81)
@@ -4220,10 +4579,10 @@
 		(uuid "cabe6499-576f-4e49-b73b-a2d3967b84a6")
 	)
 	(junction
-		(at 102.87 127)
+		(at 62.23 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f2b14973-19f3-4e71-a99b-197b241582a7")
+		(uuid "e5ff4d6d-b126-4cbd-8844-d686605d053d")
 	)
 	(no_connect
 		(at 144.78 133.35)
@@ -4325,7 +4684,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 140.97) (xy 60.96 140.97)
+			(xy 44.45 129.54) (xy 69.85 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4352,6 +4711,26 @@
 			(type default)
 		)
 		(uuid "0eb40a96-ad2d-4a70-b1f6-491bb6eca1e3")
+	)
+	(wire
+		(pts
+			(xy 87.63 113.03) (xy 87.63 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f224f69-fbcf-4898-8802-3d0477a2a606")
+	)
+	(wire
+		(pts
+			(xy 102.87 125.73) (xy 102.87 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fae8180-6417-4c4b-8a2a-552c7c6f9e5a")
 	)
 	(wire
 		(pts
@@ -4425,6 +4804,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 125.73) (xy 102.87 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24040c78-faaf-4811-b406-4833ff83af95")
+	)
+	(wire
+		(pts
 			(xy 184.15 53.34) (xy 212.09 53.34)
 		)
 		(stroke
@@ -4445,17 +4834,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 115.57) (xy 88.9 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2887d499-cd67-47a3-bf62-c36b1bfa6047")
-	)
-	(wire
-		(pts
-			(xy 102.87 137.16) (xy 106.68 137.16)
+			(xy 102.87 138.43) (xy 106.68 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4475,7 +4854,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 127) (xy 106.68 127)
+			(xy 102.87 125.73) (xy 106.68 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4545,16 +4924,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 127) (xy 102.87 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4549d7e8-bdaf-4643-b4dc-843068b6060a")
-	)
-	(wire
-		(pts
 			(xy 184.15 33.02) (xy 212.09 33.02)
 		)
 		(stroke
@@ -4565,7 +4934,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 115.57) (xy 88.9 115.57)
+			(xy 77.47 113.03) (xy 87.63 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4585,23 +4954,13 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 146.05) (xy 45.72 146.05)
+			(xy 44.45 147.32) (xy 69.85 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "514ceffd-c011-4e25-bdf9-a610c9b29dc7")
-	)
-	(wire
-		(pts
-			(xy 97.79 137.16) (xy 102.87 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5164a408-8b62-456b-9171-60f911767d3d")
 	)
 	(bus
 		(pts
@@ -4625,16 +4984,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 146.05) (xy 92.71 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b7d0924-1cc4-4283-a1f7-2c16e5b8823c")
-	)
-	(wire
-		(pts
 			(xy 151.13 39.37) (xy 165.1 39.37)
 		)
 		(stroke
@@ -4642,16 +4991,6 @@
 			(type default)
 		)
 		(uuid "608e39b8-339b-4d72-9e87-436d93390407")
-	)
-	(wire
-		(pts
-			(xy 78.74 140.97) (xy 97.79 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6228bf4f-96de-4860-afd1-cb7d7e264e3d")
 	)
 	(wire
 		(pts
@@ -4705,13 +5044,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 146.05) (xy 92.71 146.05)
+			(xy 102.87 135.89) (xy 102.87 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b7f2cf5-b75d-4594-9bf9-93017e605af6")
+		(uuid "6b543470-30cb-41b7-9835-e5dc5c9bfd51")
 	)
 	(bus
 		(pts
@@ -4755,13 +5094,13 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 120.65) (xy 96.52 127)
+			(xy 62.23 125.73) (xy 62.23 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76f96c98-889f-4be7-bf54-fffd2c032dda")
+		(uuid "75d2fd3c-65f6-436e-8d30-f265e94f18ca")
 	)
 	(wire
 		(pts
@@ -4782,6 +5121,16 @@
 			(type default)
 		)
 		(uuid "78ada63d-ed00-46c8-af9e-c3d7173e4376")
+	)
+	(wire
+		(pts
+			(xy 69.85 129.54) (xy 69.85 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79177598-0147-4202-9d06-0852c3b4e84f")
 	)
 	(wire
 		(pts
@@ -4822,6 +5171,16 @@
 			(type default)
 		)
 		(uuid "7e53d047-006a-452a-88a7-f474697328a7")
+	)
+	(wire
+		(pts
+			(xy 62.23 113.03) (xy 62.23 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ec7ba88-35ba-45b0-8d55-70641271c40f")
 	)
 	(bus
 		(pts
@@ -4895,7 +5254,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 137.16) (xy 106.68 133.35)
+			(xy 106.68 138.43) (xy 106.68 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4905,7 +5264,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 130.81) (xy 106.68 127)
+			(xy 106.68 130.81) (xy 106.68 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4925,7 +5284,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 137.16) (xy 97.79 137.16)
+			(xy 87.63 138.43) (xy 102.87 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4935,7 +5294,27 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 115.57) (xy 46.99 115.57)
+			(xy 69.85 147.32) (xy 69.85 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a7f002-ca8c-49c4-829c-0a628f230c17")
+	)
+	(wire
+		(pts
+			(xy 69.85 121.92) (xy 69.85 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a31998af-acf9-4e44-afb6-cd7540959dce")
+	)
+	(wire
+		(pts
+			(xy 44.45 104.14) (xy 69.85 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4973,6 +5352,16 @@
 		)
 		(uuid "a8bd264f-0ef2-417d-a704-2c9797c75329")
 	)
+	(wire
+		(pts
+			(xy 77.47 138.43) (xy 87.63 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8eb20c9-0824-42d0-9ffc-c1c71859d367")
+	)
 	(bus
 		(pts
 			(xy 181.61 19.05) (xy 181.61 25.4)
@@ -4992,16 +5381,6 @@
 			(type default)
 		)
 		(uuid "abeb1aa0-5725-4cd7-aabf-487d922ccd13")
-	)
-	(wire
-		(pts
-			(xy 97.79 137.16) (xy 97.79 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acf5e62c-84e6-4db1-b74c-eb8deb341449")
 	)
 	(wire
 		(pts
@@ -5115,23 +5494,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 137.16) (xy 102.87 134.62)
+			(xy 69.85 104.14) (xy 69.85 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e390e23a-f69e-4158-86d8-bbe3707a5853")
-	)
-	(wire
-		(pts
-			(xy 78.74 120.65) (xy 96.52 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5a83e01-6ad3-4ab9-9423-47b2e1289ca1")
+		(uuid "e4012ee4-d25b-473c-82e0-161cd5d2037d")
 	)
 	(wire
 		(pts
@@ -5165,23 +5534,13 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 120.65) (xy 46.99 120.65)
+			(xy 44.45 121.92) (xy 69.85 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ea7f934d-b66e-4f90-ad1c-24715454d0fd")
-	)
-	(wire
-		(pts
-			(xy 96.52 127) (xy 102.87 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb75e70b-569e-465d-89bd-0c17a1e9d91a")
 	)
 	(wire
 		(pts
@@ -5192,16 +5551,6 @@
 			(type default)
 		)
 		(uuid "eb76483e-ad38-4881-8d59-fd9c60e53927")
-	)
-	(wire
-		(pts
-			(xy 92.71 127) (xy 96.52 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebd3c0a4-6bb0-4a8e-9f67-835e37a96086")
 	)
 	(wire
 		(pts
@@ -5273,16 +5622,6 @@
 		)
 		(uuid "0b2f0ce3-0c62-461c-9e5e-6ce53cd50022")
 	)
-	(label "ETH.TR2_TAP"
-		(at 45.72 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1445d085-530e-4707-93df-9002d841a862")
-	)
 	(label "ETH.TRD3_N"
 		(at 185.42 60.96 0)
 		(effects
@@ -5302,6 +5641,16 @@
 			(justify left bottom)
 		)
 		(uuid "2043c170-b6d2-4e2e-97ac-d9093152a50d")
+	)
+	(label "ETH.TR1_TAP"
+		(at 44.45 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "266954c2-a5f2-42b2-8a3a-891764241f89")
 	)
 	(label "ETH.TR3_TAP"
 		(at 185.42 73.66 0)
@@ -5343,15 +5692,15 @@
 		)
 		(uuid "46bf1324-9c72-4387-b1f4-ebf633f727e3")
 	)
-	(label "ETH.TR0_TAP"
-		(at 46.99 120.65 0)
+	(label "ETH.TR3_TAP"
+		(at 44.45 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "518158da-ce00-4a04-b405-039ae2b56cfd")
+		(uuid "584b42a1-1af7-4748-9912-52661183ada9")
 	)
 	(label "ETH.TRD2_N"
 		(at 153.67 71.12 0)
@@ -5363,6 +5712,16 @@
 		)
 		(uuid "5b4361d1-4581-4295-82e3-769c71cb4365")
 	)
+	(label "ETH.TR0_TAP"
+		(at 44.45 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7302a942-d4f7-49e9-b3a2-d6eb59e4d1cf")
+	)
 	(label "ETH.TRD2_P"
 		(at 153.67 76.2 0)
 		(effects
@@ -5373,16 +5732,6 @@
 		)
 		(uuid "768ccd0e-4f5f-4c92-824a-ed7bbd2db226")
 	)
-	(label "ETH.TR3_TAP"
-		(at 45.72 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "98cea06c-aeb5-48eb-a705-55ca7f350501")
-	)
 	(label "ETH.TRD2_P"
 		(at 185.42 48.26 0)
 		(effects
@@ -5392,6 +5741,16 @@
 			(justify left bottom)
 		)
 		(uuid "9abd7a89-2fdd-4aba-8fad-d5a8d2afdb48")
+	)
+	(label "ETH.TR2_TAP"
+		(at 44.45 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9cc2fa6d-4d09-417a-9972-7fc90ff25b2e")
 	)
 	(label "ETH.LRDG"
 		(at 187.96 81.28 0)
@@ -5474,16 +5833,6 @@
 		(uuid "f0f7929d-aeee-408c-b800-3ded002de282")
 	)
 	(label "ETH.TR1_TAP"
-		(at 46.99 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f220658c-05ce-4bcc-9317-f201a195b57e")
-	)
-	(label "ETH.TR1_TAP"
 		(at 185.42 68.58 0)
 		(effects
 			(font
@@ -5515,7 +5864,7 @@
 		(uuid "7bf1d7f7-8ead-4137-9898-d84dd84f5074")
 	)
 	(symbol
-		(lib_id "HomeLabIO:R")
+		(lib_id "Hardware Components:R_470_0402_50V")
 		(at 204.47 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5539,7 +5888,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HomeLabIO:R_0402_1005Metric"
+		(property "Footprint" "Hardware Components:R_0402_1005Metric"
 			(at 204.47 83.058 90)
 			(effects
 				(font
@@ -5676,7 +6025,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HomeLabIO:TPD4EUSB30")
+		(lib_id "Hardware Components:ESD_TPD4EUSB30")
 		(at 138.43 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5701,7 +6050,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:USON-10_2.5x1.0mm_P0.5mm"
+		(property "Footprint" "Hardware Components:TPD4EUSB30_USON-10"
 			(at 114.3 52.07 0)
 			(effects
 				(font
@@ -5795,16 +6144,16 @@
 		)
 	)
 	(symbol
-		(lib_id "HomeLabIO:AG5405")
+		(lib_id "Hardware Components:POE_AG5405")
 		(at 128.27 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0a0ef74c-8df8-42a3-b9db-7d5042232ec1")
 		(property "Reference" "U7"
-			(at 128.27 127.254 0)
+			(at 121.158 127 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5820,7 +6169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HomeLabIO:AG5405_SLV"
+		(property "Footprint" "Hardware Components:POE_AG5405"
 			(at 128.27 135.89 0)
 			(effects
 				(font
@@ -5974,7 +6323,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HomeLabIO:C")
+		(lib_id "Hardware Components:C_Pol_470u_25V_NCC_HA0-G")
 		(at 157.48 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6001,7 +6350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
+		(property "Footprint" "Hardware Components:C_Pol_Elec_8x10"
 			(at 158.4452 138.43 0)
 			(effects
 				(font
@@ -6137,7 +6486,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HomeLabIO:LPJG0926HENL")
+		(lib_id "Hardware Components:RJ45_USAKRO_DGUK111Q334AB2A2DP057")
 		(at 233.68 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6155,7 +6504,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MagJack-A70-112-331N126"
+		(property "Value" "RJ45_USAKRO_DGUK111Q334AB2A2DP057"
 			(at 247.65 60.9599 0)
 			(effects
 				(font
@@ -6165,7 +6514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HomeLabIO:TRJG0926HENL"
+		(property "Footprint" "Hardware Components:RJ45_USAKRO_DGUK111Q334AB2A2DP057"
 			(at 233.68 99.06 0)
 			(effects
 				(font
@@ -6201,7 +6550,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C19725175"
+		(property "Manufacturer" "USAKRO"
 			(at 233.68 99.06 0)
 			(effects
 				(font
@@ -6210,7 +6559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "USAKRO"
+		(property "JLCPCB Part #" "C19725175"
 			(at 233.68 99.06 0)
 			(effects
 				(font
@@ -6489,7 +6838,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HomeLabIO:R")
+		(lib_id "Hardware Components:R_470_0402_50V")
 		(at 204.47 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6513,7 +6862,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HomeLabIO:R_0402_1005Metric"
+		(property "Footprint" "Hardware Components:R_0402_1005Metric"
 			(at 204.47 88.138 90)
 			(effects
 				(font
@@ -6650,17 +6999,16 @@
 		)
 	)
 	(symbol
-		(lib_id "HomeLabIO:CDBHM1100L-G")
-		(at 69.85 118.11 180)
+		(lib_id "Hardware Components:BR_MB110S")
+		(at 69.85 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "945a2a14-9386-4c81-bf11-93b0140ef666")
 		(property "Reference" "BR1"
-			(at 69.85 107.95 0)
+			(at 72.644 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6668,7 +7016,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 69.85 110.49 0)
+			(at 69.85 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6676,8 +7024,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HomeLabIO:MBS"
-			(at 69.85 118.11 0)
+		(property "Footprint" "Hardware Components:MB110S"
+			(at 69.85 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6686,7 +7034,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586192233355202560"
-			(at 69.596 108.458 0)
+			(at 69.596 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6695,7 +7043,7 @@
 			)
 		)
 		(property "Description" "-55℃~+125℃@(Tj) 100V 1A 200uA@100V 30A 850mV@1A MBS Bridge Rectifiers ROHS"
-			(at 70.104 110.998 0)
+			(at 70.104 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6704,7 +7052,7 @@
 			)
 		)
 		(property "MPN" "MB110S"
-			(at 69.596 103.886 0)
+			(at 69.596 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6713,7 +7061,7 @@
 			)
 		)
 		(property "Manufacturer" "MDD(Microdiode Semiconductor)"
-			(at 69.85 106.426 0)
+			(at 69.85 101.346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6722,7 +7070,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C94545"
-			(at 70.866 101.6 0)
+			(at 70.866 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6819,7 +7167,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HomeLabIO:TPD4EUSB30")
+		(lib_id "Hardware Components:ESD_TPD4EUSB30")
 		(at 138.43 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6844,7 +7192,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:USON-10_2.5x1.0mm_P0.5mm"
+		(property "Footprint" "Hardware Components:TPD4EUSB30_USON-10"
 			(at 114.3 83.82 0)
 			(effects
 				(font
@@ -6938,7 +7286,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HomeLabIO:SMAJ58A")
+		(lib_id "Hardware Components:D_SMAJ58A")
 		(at 102.87 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6947,12 +7295,12 @@
 		(dnp no)
 		(uuid "aa482fab-8078-4bc2-9fd5-e83787556c43")
 		(property "Reference" "D3"
-			(at 104.902 132.08 0)
+			(at 100.838 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "SMAJ58A"
@@ -6965,7 +7313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HomeLabIO:SMAJ58A"
+		(property "Footprint" "Hardware Components:D_SMAJ58A"
 			(at 102.362 141.224 0)
 			(effects
 				(font
@@ -6975,7 +7323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588880031459893248"
 			(at 102.87 132.08 0)
 			(effects
 				(font
@@ -7038,17 +7386,16 @@
 		)
 	)
 	(symbol
-		(lib_id "HomeLabIO:CDBHM1100L-G")
-		(at 69.85 143.51 180)
+		(lib_id "Hardware Components:BR_MB110S")
+		(at 69.85 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b3081df2-2545-4071-9502-4120dced44c4")
 		(property "Reference" "BR2"
-			(at 69.85 133.35 0)
+			(at 72.39 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7056,7 +7403,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 69.85 135.89 0)
+			(at 69.85 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7064,8 +7411,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HomeLabIO:MBS"
-			(at 69.85 143.51 0)
+		(property "Footprint" "Hardware Components:MB110S"
+			(at 69.85 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7074,7 +7421,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586192233355202560"
-			(at 69.596 133.858 0)
+			(at 69.596 128.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7083,7 +7430,7 @@
 			)
 		)
 		(property "Description" "-55℃~+125℃@(Tj) 100V 1A 200uA@100V 30A 850mV@1A MBS Bridge Rectifiers ROHS"
-			(at 70.104 136.398 0)
+			(at 70.104 131.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7092,7 +7439,7 @@
 			)
 		)
 		(property "MPN" "MB110S"
-			(at 69.596 129.286 0)
+			(at 69.596 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7101,7 +7448,7 @@
 			)
 		)
 		(property "Manufacturer" "MDD(Microdiode Semiconductor)"
-			(at 70.866 127 0)
+			(at 70.866 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7110,7 +7457,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C94545"
-			(at 69.85 131.826 0)
+			(at 69.85 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7341,7 +7688,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HomeLabIO:C")
+		(lib_id "Hardware Components:C_100n_0402_16V")
 		(at 198.12 43.18 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7365,7 +7712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HomeLabIO:C_0402_1005Metric"
+		(property "Footprint" "Hardware Components:C_0402_1005Metric"
 			(at 194.31 44.1452 0)
 			(effects
 				(font

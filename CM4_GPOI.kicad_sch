@@ -9,589 +9,12 @@
 		(rev "v0.3")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_02x04_Odd_Even"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 1.27 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_02x04_Odd_Even"
-				(at 1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_02x04_Odd_Even_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 3.81 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 2.667)
-					(end 2.54 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -4.953)
-					(end 2.54 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "HomeLabIO:640455-4"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -4.56 -0.955 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Value" "640455-4"
-				(at -4.5 -2.56 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Footprint" "HomeLabIO:61900419521"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811151546_TE-Connectivity-640455-4_C305862.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1x4P 4P 1 2.54mm 4 Brass Alloy Bend insert Push-Pull,P=2.54mm Wire To Board Connector ROHS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "TE Connectivity"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" " 640455-4"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB Part #" "C305862"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "640455-4_0_0"
-				(rectangle
-					(start -3.81 0)
-					(end 6.35 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -2.54 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0.635)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0.635)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0.635)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -1.27) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.08 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0.635)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "HomeLabIO:74LVC1G07SE-7"
+		(symbol "Hardware Components:74LVC1G07SE-7"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -2.54 3.81 0)
+				(at -3.048 4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -599,14 +22,14 @@
 				)
 			)
 			(property "Value" "74LVC1G07SE-7"
-				(at 0 -3.81 0)
+				(at 10.414 -3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(property "Footprint" "Hardware Components:SOT-353_SC-70-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -792,7 +215,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "HomeLabIO:C"
+		(symbol "Hardware Components:C_100n_0402_16V"
 			(pin_numbers
 				(hide yes)
 			)
@@ -803,24 +226,22 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at -3.302 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
+			(property "Value" "100n"
+				(at 3.302 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Hardware Components:C_0402_1005Metric"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -829,7 +250,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -838,8 +259,35 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
+			(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CL05B104KO5NNNC"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C1525"
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -865,7 +313,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_0_1"
+			(symbol "C_100n_0402_16V_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -891,7 +339,7 @@
 					)
 				)
 			)
-			(symbol "C_1_1"
+			(symbol "C_100n_0402_16V_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -931,36 +379,191 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "HomeLabIO:CM4-GPIO"
+		(symbol "Hardware Components:C_4u7_0402_16V"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -3.556 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4u7"
+				(at 3.556 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Hardware Components:C_0402_1005Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2207071030_Samsung-Electro-Mechanics-CL05A475MO5NUNC_C318563.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "16V 4.7uF X5R ±20% 0402  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CL05A475MO5NUNC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C318563"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_4u7_0402_16V_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_4u7_0402_16V_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hardware Components:Compute-Module-4_GPIO"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "M"
-				(at 0 0 0)
+				(at -28.702 66.04 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "CM4-GPIO"
-				(at 0 0 0)
+			(property "Value" "Compute-Module-4_GPIO"
+				(at 13.462 -65.786 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "HomeLabIO:HIROSE_DF40C-100DS-0.4V_51_"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
+			(property "Footprint" "Hardware Components:Conn_Socket_HIROSE_DF40_2x50_DF40C-100DS-0.4V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -969,7 +572,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588893400955834368"
 				(at 0 0 0)
 				(effects
 					(font
@@ -978,7 +581,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Hirose"
+			(property "Description" "-35℃~+85℃ 0.4mm 2 300mA Gold Surface Mount,Vertical SMD,P=0.4mm Board-to-Board and Backplane Connector ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -996,6 +599,15 @@
 					(hide yes)
 				)
 			)
+			(property "Manufacturer" "Hirose"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "JLCPCB Part #" "C597931"
 				(at 0 0 0)
 				(effects
@@ -1005,9 +617,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "CM4-GPIO_1_0"
+			(symbol "Compute-Module-4_GPIO_1_0"
 				(text "GPIO"
-					(at 1.27 12.7 0)
+					(at 0.254 0 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1015,7 +627,7 @@
 					)
 				)
 			)
-			(symbol "CM4-GPIO_1_1"
+			(symbol "Compute-Module-4_GPIO_1_1"
 				(rectangle
 					(start -29.21 64.77)
 					(end 26.67 -64.77)
@@ -2862,11 +2474,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "HomeLabIO:ComputeModule4-CM4"
+		(symbol "Hardware Components:Compute-Module-4_H1"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(property "Reference" "Module"
+			(property "Reference" "M"
 				(at 0 0.254 0)
 				(effects
 					(font
@@ -2874,7 +2486,7 @@
 					)
 				)
 			)
-			(property "Value" "ComputeModule4-CM4"
+			(property "Value" "Compute-Module-4"
 				(at 3.302 -14.986 0)
 				(effects
 					(font
@@ -2883,7 +2495,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "HomeLabIO:Raspberry-Pi-4-Compute-Module"
+			(property "Footprint" "Hardware Components:Compute-Module-4-H1"
 				(at 3.302 -10.16 0)
 				(effects
 					(font
@@ -2892,7 +2504,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://datasheets.raspberrypi.com/cm4/cm4-datasheet.pdf"
 				(at 142.24 -26.67 0)
 				(effects
 					(font
@@ -2910,7 +2522,16 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Hirose"
+			(property "MPN" "SC0294"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Rapberry Pi"
 				(at -0.254 -20.828 0)
 				(effects
 					(font
@@ -2919,19 +2540,10 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB Part #" "C597931"
-				(at 0.254 -18.542 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ComputeModule4-CM4_1_1"
+			(symbol "Compute-Module-4_H1_1_1"
 				(rectangle
-					(start -8.89 6.35)
-					(end 10.16 -6.35)
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
 					(stroke
 						(width 0)
 						(type default)
@@ -2943,7 +2555,584 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "HomeLabIO:EMC2301"
+		(symbol "Hardware Components:Conn_PinHeader_1x04_P2.54mm_Horizontal_Latch"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 2.54 -1.2699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Conn_PinHeader_1x04_P2.54mm_Horizontal_Latch"
+				(at 1.2699 1.27 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Hardware Components:Conn_PinHeader_1x04_P2.54mm_Horizontal_Latch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811151546_TE-Connectivity-640455-4_C305862.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1x4P 4P 1 2.54mm 4 Brass Alloy Bend insert Push-Pull,P=2.54mm Wire To Board Connector ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TE Connectivity"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "640455-4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C305862"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_PinHeader_1x04_P2.54mm_Horizontal_Latch_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hardware Components:Conn_PinHeader_2x04_P2.54mm_Vertical"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J4"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_PinHeader_2x04_P2.54mm_Vertical"
+				(at 1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Hardware Components:Conn_PinHeader_2x04_P2.54mm_Vertical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588888830455779328"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Direct Insert Policy 2.5mm 8P 6mm -40℃~+105℃ 3mm 2.54mm Double Row Black Brass 2x4P 2.54mm Plugin,P=2.54mm Pin Headers ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "XFCN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "PZ254V-12-8P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C492421"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_PinHeader_2x04_P2.54mm_Vertical_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hardware Components:Driver_EMC2301"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2963,7 +3152,7 @@
 					)
 				)
 			)
-			(property "Footprint" "HomeLabIO:SOP65P490X110-8N"
+			(property "Footprint" "Hardware Components:MSOP8_MC_MCH"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2999,7 +3188,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" " Microchip Tech"
+			(property "Manufacturer" "Microchip Tech"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3017,7 +3206,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "EMC2301_0_0"
+			(symbol "Driver_EMC2301_0_0"
 				(pin open_collector line
 					(at -11.43 10.16 0)
 					(length 2.54)
@@ -3163,22 +3352,22 @@
 					)
 				)
 			)
-			(symbol "EMC2301_0_1"
+			(symbol "Driver_EMC2301_1_1"
 				(rectangle
 					(start -8.89 12.7)
 					(end 5.08 0)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "HomeLabIO:LED"
+		(symbol "Hardware Components:LED_G_0603_LTST-C191KGKT"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3189,22 +3378,23 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 2.54 0)
+				(at -0.508 2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
+			(property "Value" "LED_G_0603_LTST-C191KGKT"
+				(at -1.5875 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Hardware Components:LED_0603_1608Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3213,7 +3403,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811100910_Lite-On-LTST-C191KGKT_C125098.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3222,7 +3412,34 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Light emitting diode"
+			(property "Description" "20mA 35mcd Colorless transparent lens -55℃~+85℃ 567.5nm~576.5nm Yellow Green 130° 75mW 2V 0603 LED Indication - Discrete ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "LTST-C191KGKT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Lite-On"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C125098"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3249,7 +3466,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_0_1"
+			(symbol "LED_G_0603_LTST-C191KGKT_0_1"
 				(polyline
 					(pts
 						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
@@ -3311,7 +3528,7 @@
 					)
 				)
 			)
-			(symbol "LED_1_1"
+			(symbol "LED_G_0603_LTST-C191KGKT_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -3351,7 +3568,210 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "HomeLabIO:R"
+		(symbol "Hardware Components:LED_R_0603_LTST-C191KRKT"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -0.3174 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "LED_R_0603_LTST-C191KRKT"
+				(at -2.8574 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Hardware Components:LED_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810231512_Lite-On-LTST-C191KRKT_C125099.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "20mA 54mcd Colorless transparent lens -55℃~+85℃ 631nm Red 130° 75mW 2V 0603 LED Indication - Discrete ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "LTST-C191KRKT"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Lite-On"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C125099"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_R_0603_LTST-C191KRKT_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_R_0603_LTST-C191KRKT_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hardware Components:R_10k_0402_50V"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3362,14 +3782,6 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
 				(at 0 0 90)
 				(effects
 					(font
@@ -3377,7 +3789,15 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Value" "10k"
+				(at 2.286 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Hardware Components:R_0402_1005Metric"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -3386,7 +3806,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.mouser.co.za/datasheet/2/54/cr-1858361.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3395,7 +3815,34 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CR0402-FX-1002GLF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Bourns"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C202396"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3422,7 +3869,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
+			(symbol "R_10k_0402_50V_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -3435,7 +3882,7 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "R_10k_0402_50V_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -3475,7 +3922,309 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "HomeLabIO:SLB9672XU20FW1610XTMA1"
+		(symbol "Hardware Components:R_1k_0402_75V"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1k"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Hardware Components:R_0402_1005Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_KOA-Speer-Elec-RK73H1ETTP1001F_C131360.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RK73H1ETTP1001F"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "KOA Speer Elec"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C131360"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_1k_0402_75V_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1k_0402_75V_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hardware Components:R_36k_0402_50V"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -2.286 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "36k"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Hardware Components:R_0402_1005Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-0736KL_C137999.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 36kΩ 0402 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RC0402FR-0736KL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C137999"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_36k_0402_50V_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_36k_0402_50V_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hardware Components:SLB9672XU20FW1610XTMA1"
 			(pin_names
 				(offset 0.254)
 			)
@@ -3483,7 +4232,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 27.94 0)
+				(at 0 24.13 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -3498,7 +4247,7 @@
 					)
 				)
 			)
-			(property "Footprint" "HomeLabIO:QFN50P400X400X80-25N"
+			(property "Footprint" "Hardware Components:UQFN-32-1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7318,6 +8067,16 @@
 		)
 		(uuid "557f97e6-d19e-47c0-bd06-97c1109ff138")
 	)
+	(label "TACH"
+		(at 252.73 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a147b23-06e5-49c7-b66b-7440b5ddd81f")
+	)
 	(label "SD.CMD"
 		(at 36.83 109.22 0)
 		(effects
@@ -7457,6 +8216,16 @@
 			(justify left bottom)
 		)
 		(uuid "9a5c0ed1-a34e-48b7-900b-66cf610ad1e4")
+	)
+	(label "PWM"
+		(at 252.73 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9da96097-f5d4-475d-b64c-4d41d25dbbfe")
 	)
 	(label "ETH.TRD2_N"
 		(at 115.57 43.18 0)
@@ -7654,7 +8423,7 @@
 		(uuid "c9de2f6a-0d23-4f19-b59e-35fce06d8282")
 	)
 	(symbol
-		(lib_id "HomeLabIO:74LVC1G07SE-7")
+		(lib_id "Hardware Components:74LVC1G07SE-7")
 		(at 148.59 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7663,7 +8432,7 @@
 		(dnp no)
 		(uuid "0d2d36a8-ce0b-4f80-9115-b96feb5cb075")
 		(property "Reference" "U5"
-			(at 152.146 174.752 0)
+			(at 145.542 174.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7678,7 +8447,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+		(property "Footprint" "Hardware Components:SOT-353_SC-70-5"
 			(at 148.59 179.07 0)
 			(effects
 				(font
@@ -7818,7 +8587,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HomeLabIO:C")
+		(lib_id "Hardware Components:C_100n_0402_16V")
 		(at 193.04 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7844,7 +8613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HomeLabIO:C_0402_1005Metric"
+		(property "Footprint" "Hardware Components:C_0402_1005Metric"
 			(at 194.0052 116.84 0)
 			(effects
 				(font
@@ -7872,7 +8641,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5NNNC"
-			(at 193.04 113.03 0)
+			(at 193.04 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7881,7 +8650,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 193.04 113.03 0)
+			(at 193.04 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7890,7 +8659,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C1525"
-			(at 193.04 113.03 0)
+			(at 193.04 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8042,34 +8811,31 @@
 		)
 	)
 	(symbol
-		(lib_id "HomeLabIO:R")
+		(lib_id "Hardware Components:R_36k_0402_50V")
 		(at 248.92 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2632b76c-68e2-47a7-a31b-9186a026a2a6")
 		(property "Reference" "R8"
-			(at 251.46 67.3099 0)
+			(at 246.634 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "36k"
-			(at 251.46 69.8499 0)
+			(at 248.92 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "HomeLabIO:R_0402_1005Metric"
+		(property "Footprint" "Hardware Components:R_0402_1005Metric"
 			(at 247.142 68.58 90)
 			(effects
 				(font
@@ -8204,7 +8970,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HomeLabIO:C")
+		(lib_id "Hardware Components:C_4u7_0402_16V")
 		(at 173.99 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8230,7 +8996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HomeLabIO:C_0402_1005Metric"
+		(property "Footprint" "Hardware Components:C_0402_1005Metric"
 			(at 174.9552 116.84 0)
 			(effects
 				(font
@@ -8257,7 +9023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "MPN" "CL05A475MO5NUNC"
 			(at 173.99 113.03 0)
 			(effects
 				(font
@@ -8266,7 +9032,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05A475MO5NUNC"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 173.99 113.03 0)
 			(effects
 				(font
@@ -8494,7 +9260,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
+		(lib_id "Hardware Components:Conn_PinHeader_2x04_P2.54mm_Vertical")
 		(at 180.34 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8519,7 +9285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
+		(property "Footprint" "Hardware Components:Conn_PinHeader_2x04_P2.54mm_Vertical"
 			(at 180.34 27.94 0)
 			(effects
 				(font
@@ -8737,7 +9503,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HomeLabIO:ComputeModule4-CM4")
+		(lib_id "Hardware Components:Compute-Module-4_H1")
 		(at 273.05 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8746,12 +9512,11 @@
 		(dnp no)
 		(uuid "63d239ae-00f3-4f45-9e0a-203c3f981a4e")
 		(property "Reference" "Module1"
-			(at 270.51 37.338 0)
+			(at 273.05 28.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "ComputeModule4-CM4"
@@ -8763,7 +9528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HomeLabIO:Raspberry-Pi-4-Compute-Module"
+		(property "Footprint" "Hardware Components:Compute-Module-4-H1"
 			(at 276.352 39.37 0)
 			(effects
 				(font
@@ -8772,7 +9537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.raspberrypi.com/cm4/cm4-datasheet.pdf"
 			(at 415.29 55.88 0)
 			(effects
 				(font
@@ -8790,7 +9555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Hirose"
+		(property "Manufacturer" "Rapberry Pi"
 			(at 272.796 50.038 0)
 			(effects
 				(font
@@ -8808,6 +9573,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "SC0294"
+			(at 273.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/938dda83-8624-4563-91c2-df725c684a81/ca370b1f-0541-49c0-b507-b29c9c38f03b"
@@ -8818,7 +9592,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HomeLabIO:EMC2301")
+		(lib_id "Hardware Components:Driver_EMC2301")
 		(at 236.22 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8843,7 +9617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HomeLabIO:MSOP8_MC_MCH"
+		(property "Footprint" "Hardware Components:MSOP8_MC_MCH"
 			(at 236.22 80.01 0)
 			(effects
 				(font
@@ -8997,17 +9771,16 @@
 		)
 	)
 	(symbol
-		(lib_id "HomeLabIO:C")
+		(lib_id "Hardware Components:C_100n_0402_16V")
 		(at 214.63 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6e43bfd9-383d-4711-8fa0-8900c912c536")
 		(property "Reference" "C2"
-			(at 218.44 77.4699 0)
+			(at 209.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9016,7 +9789,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 218.44 80.0099 0)
+			(at 217.932 80.772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9024,7 +9797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HomeLabIO:C_0402_1005Metric"
+		(property "Footprint" "Hardware Components:C_0402_1005Metric"
 			(at 215.5952 82.55 0)
 			(effects
 				(font
@@ -9052,7 +9825,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5NNNC"
-			(at 214.63 78.74 0)
+			(at 214.63 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9061,7 +9834,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 214.63 78.74 0)
+			(at 214.63 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9070,7 +9843,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C1525"
-			(at 214.63 78.74 0)
+			(at 214.63 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9094,17 +9867,16 @@
 		)
 	)
 	(symbol
-		(lib_id "HomeLabIO:CM4-GPIO")
+		(lib_id "Hardware Components:Compute-Module-4_GPIO")
 		(at 82.55 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "70944bfa-ad93-47a5-83c5-e6bc6a2d6ab9")
 		(property "Reference" "M2"
-			(at 81.28 25.4 0)
+			(at 54.61 28.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9112,14 +9884,14 @@
 			)
 		)
 		(property "Value" "CM4-GPIO"
-			(at 81.28 27.94 0)
+			(at 104.648 161.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "HomeLabIO:HIROSE_DF40C-100DS-0.4V_51_"
+		(property "Footprint" "Hardware Components:Conn_Socket_HIROSE_DF40_2x50_DF40C-100DS-0.4V"
 			(at 82.55 95.25 0)
 			(effects
 				(font
@@ -9128,7 +9900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588893400955834368"
 			(at 82.55 95.25 0)
 			(effects
 				(font
@@ -9137,7 +9909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-35℃~+85℃ 0.4mm 2 300mA Gold Surface Mount,Vertical SMD,P=0.4mm Board-to-Board and Backplane Connector ROHS"
 			(at 82.55 95.25 0)
 			(effects
 				(font
@@ -9812,7 +10584,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HomeLabIO:SLB9672XU20FW1610XTMA1")
+		(lib_id "Hardware Components:SLB9672XU20FW1610XTMA1")
 		(at 231.14 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9837,7 +10609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HomeLabIO:PG-UQFN-32-1_INF"
+		(property "Footprint" "Hardware Components:UQFN-32-1"
 			(at 231.14 130.81 0)
 			(effects
 				(font
@@ -9960,7 +10732,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HomeLabIO:LED")
+		(lib_id "Hardware Components:LED_R_0603_LTST-C191KRKT")
 		(at 156.21 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9988,7 +10760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "Hardware Components:LED_0603_1608Metric"
 			(at 156.21 161.29 0)
 			(effects
 				(font
@@ -10058,34 +10830,31 @@
 		)
 	)
 	(symbol
-		(lib_id "HomeLabIO:R")
+		(lib_id "Hardware Components:R_1k_0402_75V")
 		(at 156.21 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8cbf49da-93b5-4a05-a50a-29fd02f14fcd")
 		(property "Reference" "R5"
-			(at 158.75 171.4499 0)
+			(at 153.924 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "1k"
-			(at 158.75 173.9899 0)
+			(at 156.21 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "HomeLabIO:R_0402_1005Metric"
+		(property "Footprint" "Hardware Components:R_0402_1005Metric"
 			(at 154.432 172.72 90)
 			(effects
 				(font
@@ -10113,7 +10882,7 @@
 			)
 		)
 		(property "MPN" "RK73H1ETTP1001F"
-			(at 156.21 172.72 0)
+			(at 156.21 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10122,7 +10891,7 @@
 			)
 		)
 		(property "Manufacturer" "KOA Speer Elec"
-			(at 156.21 172.72 0)
+			(at 156.21 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10131,7 +10900,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C131360"
-			(at 156.21 172.72 0)
+			(at 156.21 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10288,7 +11057,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HomeLabIO:LED")
+		(lib_id "Hardware Components:LED_G_0603_LTST-C191KGKT")
 		(at 139.7 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10314,7 +11083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "Hardware Components:LED_0603_1608Metric"
 			(at 139.7 54.61 0)
 			(effects
 				(font
@@ -10584,7 +11353,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HomeLabIO:C")
+		(lib_id "Hardware Components:C_100n_0402_16V")
 		(at 186.69 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10610,7 +11379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HomeLabIO:C_0402_1005Metric"
+		(property "Footprint" "Hardware Components:C_0402_1005Metric"
 			(at 187.6552 116.84 0)
 			(effects
 				(font
@@ -10638,7 +11407,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5NNNC"
-			(at 186.69 113.03 0)
+			(at 186.69 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10647,7 +11416,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 186.69 113.03 0)
+			(at 186.69 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10656,7 +11425,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C1525"
-			(at 186.69 113.03 0)
+			(at 186.69 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10746,34 +11515,31 @@
 		)
 	)
 	(symbol
-		(lib_id "HomeLabIO:R")
+		(lib_id "Hardware Components:R_10k_0402_50V")
 		(at 259.08 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bcb1e3b8-49b1-4c60-aecd-4be611826d48")
 		(property "Reference" "R19"
-			(at 261.62 121.9199 0)
+			(at 256.794 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "10k"
-			(at 261.62 124.4599 0)
+			(at 259.08 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "HomeLabIO:R_0402_1005Metric"
+		(property "Footprint" "Hardware Components:R_0402_1005Metric"
 			(at 257.302 123.19 90)
 			(effects
 				(font
@@ -10791,7 +11557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 10K OHM %"
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 259.08 123.19 0)
 			(effects
 				(font
@@ -11108,7 +11874,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HomeLabIO:R")
+		(lib_id "Hardware Components:R_1k_0402_75V")
 		(at 129.54 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11132,7 +11898,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HomeLabIO:R_0402_1005Metric"
+		(property "Footprint" "Hardware Components:R_0402_1005Metric"
 			(at 129.54 60.198 90)
 			(effects
 				(font
@@ -11402,7 +12168,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HomeLabIO:C")
+		(lib_id "Hardware Components:C_100n_0402_16V")
 		(at 180.34 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11428,7 +12194,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HomeLabIO:C_0402_1005Metric"
+		(property "Footprint" "Hardware Components:C_0402_1005Metric"
 			(at 181.3052 116.84 0)
 			(effects
 				(font
@@ -11456,7 +12222,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5NNNC"
-			(at 180.34 113.03 0)
+			(at 180.34 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11465,7 +12231,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 180.34 113.03 0)
+			(at 180.34 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11474,7 +12240,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C1525"
-			(at 180.34 113.03 0)
+			(at 180.34 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11498,8 +12264,8 @@
 		)
 	)
 	(symbol
-		(lib_id "HomeLabIO:640455-4")
-		(at 262.89 72.39 270)
+		(lib_id "Hardware Components:Conn_PinHeader_1x04_P2.54mm_Horizontal_Latch")
+		(at 262.89 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11508,7 +12274,7 @@
 		(fields_autoplaced yes)
 		(uuid "f63f0649-aae2-4d45-b9d5-7cc15a69d080")
 		(property "Reference" "J5"
-			(at 264.16 73.6599 90)
+			(at 265.43 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11517,7 +12283,7 @@
 			)
 		)
 		(property "Value" "61900419521"
-			(at 264.16 73.6599 90)
+			(at 264.1599 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11526,7 +12292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HomeLabIO:TE_640455-4"
+		(property "Footprint" "Hardware Components:Conn_PinHeader_1x04_P2.54mm_Horizontal_Latch"
 			(at 262.89 72.39 0)
 			(effects
 				(font
