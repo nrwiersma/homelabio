@@ -10,7 +10,7 @@
 Features:
 
 * Power over Ethernet 802.3at (PoE+)
-* TPM 2.0
+* TPM 2.0 (SLB9670)
 * NVMe SSD up to 2280
 * HDMI
 * USB-C UART communication on the front
@@ -47,6 +47,29 @@ Add the following under the `[all]` section:
 ```ini
 dtoverlay=i2c-fan,emc2301,i2c_csi_dsi0
 ```
+
+### TPM2
+
+The TPM2 can be enabled by adding the following line to `/boot/firmware/config.txt` under the `[all]` section:
+```ini
+dtoverlay=tpm-slb9670
+```
+
+### GPIO
+
+The following GPIOs are exposed on the board:
+
+| GPIO | Function        |
+|------|-----------------|
+| 2    | I2C1 SDA        |
+| 3    | I2C1 SCL        |
+| 8    | SPI0 CS0        |
+| 11   | SPI0 SCLK       |
+| 9    | SPI0 MISO       |
+| 10   | SPI0 MOSI       |
+
+> [!WARNING]
+> These SPI GPIOs are shared with other peripherals on the board. Make sure to check for conflicts before using them.
 
 ## BOM
 
@@ -99,3 +122,10 @@ Special thanks to PCBWay for their generous support!
 * Switch PCIe power management
 * Add NVMe LED
 * Switch HDMI port for cheaper alternative
+
+#### v0.3.0
+
+* Add TPM2 support
+* Add GPIO breakout header
+* Moved some components to allow for better manufacturability
+* Various silkscreen improvements

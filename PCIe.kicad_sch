@@ -3241,7 +3241,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_BOURNS-CR0402-FX-2201GLF_C2076845.pdf"
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588899018885222400"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3250,7 +3250,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 2.2kΩ 0402  Chip Resistor - Surface Mount ROHS"
+			(property "Description" "-55℃~+155℃ 2.2kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3259,7 +3259,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "BOURNS"
+			(property "Manufacturer" "YAGEO"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3268,7 +3268,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "CR0402-FX-2201GLF"
+			(property "MPN" "RC0402FR-072K2L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3277,7 +3277,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB Part #" "C2076845"
+			(property "JLCPCB Part #" "C114762"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5373,7 +5373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_BOURNS-CR0402-FX-2201GLF_C2076845.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588899018885222400"
 			(at 229.87 60.96 0)
 			(effects
 				(font
@@ -5382,7 +5382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 2.2kΩ 0402  Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 2.2kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 229.87 60.96 0)
 			(effects
 				(font
@@ -5391,7 +5391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "BOURNS"
+		(property "Manufacturer" "YAGEO"
 			(at 229.87 60.96 0)
 			(effects
 				(font
@@ -5400,7 +5400,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-2201GLF"
+		(property "MPN" "RC0402FR-072K2L"
 			(at 229.87 60.96 0)
 			(effects
 				(font
@@ -5409,7 +5409,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C2076845"
+		(property "JLCPCB Part #" "C114762"
 			(at 229.87 60.96 0)
 			(effects
 				(font
