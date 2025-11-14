@@ -4950,6 +4950,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -5595,6 +5745,12 @@
 		(uuid "e7f505bb-fd3c-4dd7-a998-0e7d7cc3dee9")
 	)
 	(junction
+		(at 29.21 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f480e257-a28b-4829-9fcf-e390df53ca3f")
+	)
+	(junction
 		(at 120.65 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5719,10 +5875,6 @@
 	(no_connect
 		(at 50.8 152.4)
 		(uuid "8913313c-ca8b-4bff-8409-ebf8d57d1327")
-	)
-	(no_connect
-		(at 111.76 66.04)
-		(uuid "96f3dcde-2081-4e1b-8be3-498903a0acf3")
 	)
 	(no_connect
 		(at 50.8 127)
@@ -6799,6 +6951,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 162.56) (xy 29.21 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7663b3b1-29cf-473a-99d1-1d4ad373a52e")
+	)
+	(wire
+		(pts
 			(xy 111.76 104.14) (xy 129.54 104.14)
 		)
 		(stroke
@@ -7169,6 +7331,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 176.53) (xy 35.56 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ad6ce1-2b39-4208-9755-122cfa2e31b5")
+	)
+	(wire
+		(pts
 			(xy 148.59 181.61) (xy 148.59 186.69)
 		)
 		(stroke
@@ -7439,6 +7611,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 175.26) (xy 29.21 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8e47551-ccd8-4503-8d87-9af807da82f5")
+	)
+	(wire
+		(pts
 			(xy 208.28 124.46) (xy 201.93 124.46)
 		)
 		(stroke
@@ -7557,6 +7739,16 @@
 		)
 		(uuid "d407c6f8-028b-4333-a09e-59d0286597ec")
 	)
+	(wire
+		(pts
+			(xy 35.56 186.69) (xy 35.56 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4362961-f4dc-445f-9f68-2e5fae61c61f")
+	)
 	(bus
 		(pts
 			(xy 132.08 106.68) (xy 132.08 101.6)
@@ -7586,6 +7778,26 @@
 			(type default)
 		)
 		(uuid "d914ffbb-3c6c-4f25-b696-152a1e4a03a9")
+	)
+	(wire
+		(pts
+			(xy 29.21 172.72) (xy 29.21 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9d6439a-6662-4304-9f17-d540988c0b82")
+	)
+	(wire
+		(pts
+			(xy 29.21 175.26) (xy 15.24 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc8f57ed-9b50-437d-a150-0f44aa110d57")
 	)
 	(wire
 		(pts
@@ -7706,6 +7918,16 @@
 			(type default)
 		)
 		(uuid "e811f675-9e80-4dff-ba07-ecf442385cf0")
+	)
+	(wire
+		(pts
+			(xy 111.76 66.04) (xy 129.54 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e97f7981-8d18-418a-92b7-bfdda088979b")
 	)
 	(wire
 		(pts
@@ -7946,6 +8168,26 @@
 			(justify left bottom)
 		)
 		(uuid "1957fe99-b29f-4330-b24f-f0919f4f3217")
+	)
+	(label "USER_BTN"
+		(at 15.24 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1cd68071-057f-48b0-a6b3-779647d1f44a")
+	)
+	(label "USER_BTN"
+		(at 129.54 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "215ecc1c-19bf-425d-bda2-0882fda0be8e")
 	)
 	(label "UART.TX"
 		(at 116.84 101.6 0)
@@ -8677,6 +8919,100 @@
 			(project "HomeLabIO"
 				(path "/938dda83-8624-4563-91c2-df725c684a81/ca370b1f-0541-49c0-b507-b29c9c38f03b"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hardware Components:R_10k_0402_50V")
+		(at 29.21 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "150f080c-7fd8-4dd2-89f6-c6a79e97d427")
+		(property "Reference" "R20"
+			(at 26.924 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 29.21 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Hardware Components:R_0402_1005Metric"
+			(at 27.432 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.co.za/datasheet/2/54/cr-1858361.pdf"
+			(at 29.21 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 29.21 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1002GLF"
+			(at 29.21 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 29.21 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C202396"
+			(at 29.21 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2c277aa-43a2-42ba-a3d1-6f3d2d46b571")
+		)
+		(pin "2"
+			(uuid "f57f40fc-c140-463e-959f-c78ccf8e0f3a")
+		)
+		(instances
+			(project "HomeLabIO"
+				(path "/938dda83-8624-4563-91c2-df725c684a81/ca370b1f-0541-49c0-b507-b29c9c38f03b"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -11449,6 +11785,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 29.21 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae84f73f-6d5d-48a8-a8e4-a980bda4cd5e")
+		(property "Reference" "#PWR065"
+			(at 29.21 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 29.2099 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 29.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62e7862e-4484-4c93-9548-d6e1e52a363f")
+		)
+		(instances
+			(project "HomeLabIO"
+				(path "/938dda83-8624-4563-91c2-df725c684a81/ca370b1f-0541-49c0-b507-b29c9c38f03b"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 48.26 167.64 0)
 		(unit 1)
@@ -11968,6 +12371,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 35.56 181.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d533cce5-4847-4f7f-88b9-a8f3fe4dad61")
+		(property "Reference" "SW1"
+			(at 39.37 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 39.37 182.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Panasonic_EVQPUL_EVQPUC"
+			(at 40.64 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588918409580974080"
+			(at 40.64 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-20℃~+70℃ 1.65mm 100,000 Cycles 12V 2.2N 4.5mm 4.7mm 50mA PC Pin Rectangular Button SPST Surface Mount, Right Angle SMD,4.7x4.5mm Tactile Switches ROHS"
+			(at 35.56 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EVQPUC02K"
+			(at 35.56 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "PANASONIC"
+			(at 35.56 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C79174"
+			(at 35.56 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f8edce6-7474-410f-9ce4-e8ecaa510358")
+		)
+		(pin "1"
+			(uuid "62481dd9-ba41-4922-bc7b-6c0d25cdc99d")
+		)
+		(instances
+			(project ""
+				(path "/938dda83-8624-4563-91c2-df725c684a81/ca370b1f-0541-49c0-b507-b29c9c38f03b"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 208.28 74.93 90)
 		(unit 1)
@@ -12365,6 +12865,72 @@
 			(project ""
 				(path "/938dda83-8624-4563-91c2-df725c684a81/ca370b1f-0541-49c0-b507-b29c9c38f03b"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f955da5b-d336-4202-bfe8-8fdeb185f896")
+		(property "Reference" "#PWR064"
+			(at 35.56 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f519f5a-24fe-4ce7-972a-421d4f7171a3")
+		)
+		(instances
+			(project "HomeLabIO"
+				(path "/938dda83-8624-4563-91c2-df725c684a81/ca370b1f-0541-49c0-b507-b29c9c38f03b"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)

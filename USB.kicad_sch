@@ -2877,7 +2877,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Hardware Components:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+		(symbol "Hardware Components:USB_C_Receptacle_XUNPU_TYPEC-305-ACP16H458"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2892,8 +2892,8 @@
 					)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_HRO_TYPE-C-31-M-12"
-				(at 0 20.32 0)
+			(property "Value" "USB_C_Receptacle_XUNPU_TYPEC-305-ACP16H458"
+				(at 26.67 -19.304 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2901,8 +2901,8 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Hardware Components:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
-				(at 3.81 0 0)
+			(property "Footprint" "Hardware Components:USB_C_Receptacle_XUNPU_TYPEC-305-ACP16H458"
+				(at -0.254 -29.21 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2910,8 +2910,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-				(at 3.81 0 0)
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590904324467863552"
+				(at 0 -26.162 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2919,7 +2919,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(property "Description" "-55℃~+85℃ 1 16P 5A Female Side View Mount Type-C USB 3.1 SMD USB Connectors ROHS"
+				(at 1.016 -33.274 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "TYPEC-305-ACP16H458"
+				(at 0.254 -36.322 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "XUNPU"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2928,26 +2946,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "TYPE-C-31-M-12"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Korean Hroparts Elec"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB Part #" "C165948"
-				(at 0 0 0)
+			(property "JLCPCB Part #" "C5454943"
+				(at -1.27 -37.338 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2973,7 +2973,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Receptacle_HRO_TYPE-C-31-M-12_0_0"
+			(symbol "USB_C_Receptacle_XUNPU_TYPEC-305-ACP16H458_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -3085,7 +3085,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_HRO_TYPE-C-31-M-12_0_1"
+			(symbol "USB_C_Receptacle_XUNPU_TYPEC-305-ACP16H458_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -3286,7 +3286,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_HRO_TYPE-C-31-M-12_1_1"
+			(symbol "USB_C_Receptacle_XUNPU_TYPEC-305-ACP16H458_1_1"
 				(pin passive line
 					(at -7.62 -22.86 90)
 					(length 5.08)
@@ -3401,7 +3401,6 @@
 				(pin passive line
 					(at 15.24 15.24 180)
 					(length 5.08)
-					(hide yes)
 					(name "VBUS"
 						(effects
 							(font
@@ -3420,7 +3419,6 @@
 				(pin passive line
 					(at 15.24 15.24 180)
 					(length 5.08)
-					(hide yes)
 					(name "VBUS"
 						(effects
 							(font
@@ -3439,7 +3437,6 @@
 				(pin passive line
 					(at 15.24 15.24 180)
 					(length 5.08)
-					(hide yes)
 					(name "VBUS"
 						(effects
 							(font
@@ -5057,7 +5054,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Hardware Components:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
+		(lib_id "Hardware Components:USB_C_Receptacle_XUNPU_TYPEC-305-ACP16H458")
 		(at 36.83 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5082,8 +5079,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Hardware Components:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
-			(at 40.64 54.61 0)
+		(property "Footprint" "Hardware Components:USB_C_Receptacle_XUNPU_TYPEC-305-ACP16H458"
+			(at 36.576 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5091,8 +5088,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 40.64 54.61 0)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590904324467863552"
+			(at 36.83 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,7 +5097,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+		(property "Description" "-55℃~+85℃ 1 16P 5A Female Side View Mount Type-C USB 3.1 SMD USB Connectors ROHS"
+			(at 37.846 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TYPEC-305-ACP16H458"
+			(at 37.084 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
 			(at 36.83 54.61 0)
 			(effects
 				(font
@@ -5109,26 +5124,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TYPE-C-31-M-12"
-			(at 36.83 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Korean Hroparts Elec"
-			(at 36.83 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C165948"
-			(at 36.83 54.61 0)
+		(property "JLCPCB Part #" "C5454943"
+			(at 35.56 91.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
