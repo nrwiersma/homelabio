@@ -71,6 +71,15 @@ The following GPIOs are exposed on the board:
 > [!WARNING]
 > These SPI GPIOs are shared with other peripherals on the board. Make sure to check for conflicts before using them.
 
+#### User Programmable Button
+
+The user programmable button is connected to GPIO 20. It can be used for various purposes, such as triggering a shutdown or reset.
+
+For example, to configure the button to trigger a shutdown when pressed, you can use the following configuration in your `/boot/firmware/config.txt`:
+```ini
+dtoverlay=gpio-shutdown,gpio_pin=20,active_low=1,gpio_pull=off
+```
+
 ## BOM
 
 See the [Interactive BOM](https://htmlpreview.github.io/?https://github.com/nrwiersma/homelabio/blob/TPM2/bom/ibom.html) [(provided by InteractiveHtmlBom)
