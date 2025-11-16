@@ -59,7 +59,7 @@ dtoverlay=tpm-slb9670
 
 The following GPIOs are exposed on the board:
 
-![pinout](assets/pintout.png)
+![pinout](assets/pintout.svg)
 
 > [!WARNING]
 > These SPI GPIOs are shared with other peripherals on the board. Make sure to check for conflicts before using them.
