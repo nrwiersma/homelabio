@@ -133,5 +133,6 @@ Special thanks to PCBWay for their generous support!
 
 * Add TPM2 support
 * Add GPIO breakout header
+* Add user programmable button
 * Moved some components to allow for better manufacturability
 * Various silkscreen improvements
