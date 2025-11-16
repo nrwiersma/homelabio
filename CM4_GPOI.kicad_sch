@@ -2788,7 +2788,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Hardware Components:Conn_PinHeader_2x04_P2.54mm_Vertical"
+		(symbol "Hardware Components:Conn_PinHeader_2x05_P2.54mm_Vertical"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -2796,16 +2796,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J4"
-				(at 1.27 5.08 0)
+			(property "Reference" "J"
+				(at 1.27 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_PinHeader_2x04_P2.54mm_Vertical"
-				(at 1.27 6.35 0)
+			(property "Value" "Conn_PinHeader_2x05_P2.54mm_Vertical"
+				(at 1.27 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2813,7 +2813,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Hardware Components:Conn_PinHeader_2x04_P2.54mm_Vertical"
+			(property "Footprint" "Hardware Components:Conn_PinHeader_2x05_P2.54mm_Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2822,7 +2822,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588888830455779328"
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588888831508008960"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2831,7 +2831,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Direct Insert Policy 2.5mm 8P 6mm -40℃~+105℃ 3mm 2.54mm Double Row Black Brass 2x4P 2.54mm Plugin,P=2.54mm Pin Headers ROHS"
+			(property "Description" "-40℃~+105℃ 10P 2 2.54mm 2.54mm 2.5mm 2x5P 3mm 6mm Black Brass Pin Header Through Hole Plugin,P=2.54mm Pin Headers ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "PZ254V-12-10P"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2849,16 +2858,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "PZ254V-12-8P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB Part #" "C492421"
+			(property "JLCPCB Part #" "C492422"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2885,9 +2885,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_PinHeader_2x04_P2.54mm_Vertical_1_1"
+			(symbol "Conn_PinHeader_2x05_P2.54mm_Vertical_1_1"
 				(rectangle
-					(start -1.27 3.81)
+					(start -1.27 6.35)
 					(end 3.81 -6.35)
 					(stroke
 						(width 0.254)
@@ -2895,6 +2895,17 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(rectangle
@@ -2933,6 +2944,17 @@
 				(rectangle
 					(start -1.27 -4.953)
 					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 5.207)
+					(end 2.54 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -2986,7 +3008,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -3004,7 +3026,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -3022,7 +3044,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -3040,7 +3062,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -3058,7 +3080,25 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -3076,7 +3116,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -3094,7 +3134,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -3112,7 +3152,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -3122,6 +3162,24 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5906,6 +5964,10 @@
 		(uuid "8913313c-ca8b-4bff-8409-ebf8d57d1327")
 	)
 	(no_connect
+		(at 254 144.78)
+		(uuid "8a37770c-29a5-4c9f-9282-e00859b06d42")
+	)
+	(no_connect
 		(at 50.8 127)
 		(uuid "9c219d9e-7f74-406f-8ffb-7600f343069d")
 	)
@@ -6200,7 +6262,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 25.4) (xy 175.26 25.4)
+			(xy 165.1 22.86) (xy 175.26 22.86)
 		)
 		(stroke
 			(width 0)
@@ -6257,16 +6319,6 @@
 			(type default)
 		)
 		(uuid "126cc5e6-98c3-429f-8698-b75bd9cbfba1")
-	)
-	(wire
-		(pts
-			(xy 254 144.78) (xy 271.78 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13137496-1b47-4304-ae7f-fca7e88cfe22")
 	)
 	(wire
 		(pts
@@ -7010,6 +7062,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 31.75) (xy 204.47 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7856d1cf-8561-40b8-b09b-8a07768528cd")
+	)
+	(wire
+		(pts
 			(xy 114.3 99.06) (xy 114.3 106.68)
 		)
 		(stroke
@@ -7037,16 +7099,6 @@
 			(type default)
 		)
 		(uuid "7b93fab9-ef86-44bc-b736-56b37b6a2688")
-	)
-	(wire
-		(pts
-			(xy 187.96 27.94) (xy 200.66 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bac01bb-ee03-4ba3-8dea-4f950bdeaba8")
 	)
 	(wire
 		(pts
@@ -7250,6 +7302,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 27.94) (xy 204.47 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "911711ac-977b-4c1b-a7e7-9a4d2c56ca86")
+	)
+	(wire
+		(pts
 			(xy 201.93 142.24) (xy 201.93 144.78)
 		)
 		(stroke
@@ -7328,6 +7390,16 @@
 		)
 		(uuid "9fc6fdba-824d-4498-b68a-d92d36703165")
 	)
+	(wire
+		(pts
+			(xy 165.1 30.48) (xy 175.26 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a21c7912-60cd-42f7-82d7-840a3aa6e574")
+	)
 	(bus
 		(pts
 			(xy 132.08 124.46) (xy 132.08 116.84)
@@ -7340,7 +7412,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 25.4) (xy 165.1 22.86)
+			(xy 165.1 22.86) (xy 165.1 20.32)
 		)
 		(stroke
 			(width 0)
@@ -7520,6 +7592,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 22.86) (xy 200.66 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c0f29a-793d-4e7b-8513-87b848324f47")
+	)
+	(wire
+		(pts
 			(xy 248.92 72.39) (xy 248.92 74.93)
 		)
 		(stroke
@@ -7530,7 +7612,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 30.48) (xy 175.26 30.48)
+			(xy 165.1 27.94) (xy 175.26 27.94)
 		)
 		(stroke
 			(width 0)
@@ -7547,16 +7629,6 @@
 			(type default)
 		)
 		(uuid "bed034e4-6dab-4401-9474-3fac1d47fe62")
-	)
-	(wire
-		(pts
-			(xy 187.96 25.4) (xy 200.66 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c05ab561-8d3a-41f3-8956-e52943b9d8e4")
 	)
 	(wire
 		(pts
@@ -7630,7 +7702,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 27.94) (xy 175.26 27.94)
+			(xy 165.1 25.4) (xy 175.26 25.4)
 		)
 		(stroke
 			(width 0)
@@ -7707,6 +7779,16 @@
 			(type default)
 		)
 		(uuid "cbf13365-5d74-4131-8bd1-515d36476364")
+	)
+	(wire
+		(pts
+			(xy 187.96 25.4) (xy 200.66 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc95b942-4991-44a3-bcce-9a3a7b18d3ce")
 	)
 	(bus
 		(pts
@@ -8159,7 +8241,7 @@
 		(uuid "06df8de1-7a53-45e2-88bc-f5125cf40abf")
 	)
 	(label "GPIO2"
-		(at 165.1 30.48 0)
+		(at 165.1 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8177,16 +8259,6 @@
 			(justify left bottom)
 		)
 		(uuid "12a1ce01-d76b-467b-91f9-4929898ad8d5")
-	)
-	(label "TPM.MOSI"
-		(at 200.66 27.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1890994f-e09b-4701-8e37-7711f334072f")
 	)
 	(label "SCL"
 		(at 27.94 132.08 0)
@@ -8388,18 +8460,18 @@
 		)
 		(uuid "63e405aa-fe38-45f1-be71-00640f59679d")
 	)
-	(label "TPM.RST"
-		(at 271.78 144.78 180)
+	(label "GPIO4"
+		(at 165.1 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "75aa1ccb-4867-4d45-903c-9da15486d413")
+		(uuid "68bbd7ea-0c91-4e6d-a787-af4e537dd460")
 	)
 	(label "GPIO3"
-		(at 165.1 27.94 0)
+		(at 165.1 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8468,16 +8540,6 @@
 		)
 		(uuid "9268a144-d57f-4c5e-ab8f-1a529d8e9422")
 	)
-	(label "TPM.MISO"
-		(at 200.66 25.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "97cb9e1e-1cfa-4b5f-b557-69a19baccea8")
-	)
 	(label "ETH.LEDY"
 		(at 115.57 50.8 0)
 		(effects
@@ -8538,7 +8600,7 @@
 		)
 		(uuid "ad396bf8-bcaa-4df5-a5fa-39379c2ce356")
 	)
-	(label "TPM.RST"
+	(label "GPIO4"
 		(at 36.83 99.06 0)
 		(effects
 			(font
@@ -8607,6 +8669,26 @@
 			(justify left bottom)
 		)
 		(uuid "eb354141-aa5b-486e-9177-10d67f736b7c")
+	)
+	(label "TPM.MOSI"
+		(at 200.66 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee82315a-0879-4479-aa33-203a05b07dc6")
+	)
+	(label "TPM.MISO"
+		(at 200.66 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f05bfed6-b601-4880-8c0a-27eefeeaa431")
 	)
 	(label "ETH.TRD0_N"
 		(at 35.56 43.18 0)
@@ -9625,7 +9707,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Hardware Components:Conn_PinHeader_2x04_P2.54mm_Vertical")
+		(lib_id "Hardware Components:Conn_PinHeader_2x05_P2.54mm_Vertical")
 		(at 180.34 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9650,7 +9732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Hardware Components:Conn_PinHeader_2x04_P2.54mm_Vertical"
+		(property "Footprint" "Hardware Components:Conn_PinHeader_2x05_P2.54mm_Vertical"
 			(at 180.34 27.94 0)
 			(effects
 				(font
@@ -9659,7 +9741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588888830455779328"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588888831508008960"
 			(at 180.34 27.94 0)
 			(effects
 				(font
@@ -9668,7 +9750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Direct Insert Policy 2.5mm 8P 6mm -40℃~+105℃ 3mm 2.54mm Double Row Black Brass 2x4P 2.54mm Plugin,P=2.54mm Pin Headers ROHS"
+		(property "Description" "-40℃~+105℃ 10P 2 2.54mm 2.54mm 2.5mm 2x5P 3mm 6mm Black Brass Pin Header Through Hole Plugin,P=2.54mm Pin Headers ROHS"
 			(at 180.34 27.94 0)
 			(effects
 				(font
@@ -9686,7 +9768,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PZ254V-12-8P"
+		(property "MPN" "PZ254V-12-10P"
 			(at 180.34 27.94 0)
 			(effects
 				(font
@@ -9695,7 +9777,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C492421"
+		(property "JLCPCB Part #" "C492422"
 			(at 180.34 27.94 0)
 			(effects
 				(font
@@ -9727,6 +9809,12 @@
 		)
 		(pin "7"
 			(uuid "f51585bf-15d0-4e43-a354-b36dbaaf82dd")
+		)
+		(pin "9"
+			(uuid "30114195-df61-4af9-9ba1-fd2709be4155")
+		)
+		(pin "10"
+			(uuid "95eaa7d4-43bc-4bd5-a535-eeb8676377a2")
 		)
 		(instances
 			(project "HomeLabIO"
@@ -9862,6 +9950,72 @@
 			(project "HomeLabIO"
 				(path "/938dda83-8624-4563-91c2-df725c684a81/ca370b1f-0541-49c0-b507-b29c9c38f03b"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 204.47 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b26c671-4f07-47a9-a8a5-478dc9125a85")
+		(property "Reference" "#PWR066"
+			(at 204.47 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81bedfdf-f6bc-4b81-9c4e-065466cbce90")
+		)
+		(instances
+			(project "HomeLabIO"
+				(path "/938dda83-8624-4563-91c2-df725c684a81/ca370b1f-0541-49c0-b507-b29c9c38f03b"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -12042,7 +12196,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 165.1 22.86 0)
+		(at 165.1 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12051,7 +12205,7 @@
 		(fields_autoplaced yes)
 		(uuid "bdfea212-9a00-4265-b16c-bcd3c43c8496")
 		(property "Reference" "#PWR035"
-			(at 165.1 26.67 0)
+			(at 165.1 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12060,7 +12214,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 162.56 21.5901 0)
+			(at 162.56 19.0501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12069,7 +12223,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 22.86 0)
+			(at 165.1 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12078,7 +12232,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 22.86 0)
+			(at 165.1 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12087,7 +12241,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 165.1 22.86 0)
+			(at 165.1 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)

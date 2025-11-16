@@ -59,17 +59,14 @@ dtoverlay=tpm-slb9670
 
 The following GPIOs are exposed on the board:
 
-| GPIO | Function        |
-|------|-----------------|
-| 2    | I2C1 SDA        |
-| 3    | I2C1 SCL        |
-| 8    | SPI0 CS0        |
-| 11   | SPI0 SCLK       |
-| 9    | SPI0 MISO       |
-| 10   | SPI0 MOSI       |
+![pinout](assets/pintout.png)
 
 > [!WARNING]
 > These SPI GPIOs are shared with other peripherals on the board. Make sure to check for conflicts before using them.
+
+> [!TIP]
+> The left hand pins are Raspberry Pi 4 compatible. It is possible to use some Raspberry Pi HATs with this board,
+> for instance, the DS3231 Real Time Clock Module.
 
 #### User Programmable Button
 
