@@ -79,7 +79,7 @@ dtoverlay=gpio-shutdown,gpio_pin=20,active_low=1,gpio_pull=off
 
 ## BOM
 
-See the [Interactive BOM](https://htmlpreview.github.io/?https://github.com/nrwiersma/homelabio/blob/TPM2/bom/ibom.html) [(provided by InteractiveHtmlBom)
+See the [Interactive BOM](https://htmlpreview.github.io/?https://github.com/nrwiersma/homelabio/blob/main/bom/ibom.html) [(provided by InteractiveHtmlBom)
 ](https://github.com/openscopeproject/InteractiveHtmlBom).
 
 ## PCB Fabrication and Assembly by PCBWay
