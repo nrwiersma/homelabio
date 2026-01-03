@@ -1,9 +1,9 @@
 ![Logo](http://svg.wiersma.co.za/github/project.v2?title=homelabio&tag=rack%20mount%20carrier%20board)
 
+![board image](assets/assembled.png)
+
 [![GitHub release](https://img.shields.io/github/release/nrwiersma/homelabio.svg)](https://github.com/nrwiersma/homelabio/releases)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/nrwiersma/homelabio/master/LICENSE)
-
-![board image](assets/assembled.png)
 
 `HomeLabIO` is a Compute Module 4/5 carrier board designed to fit in a 19" rack using 1U of space.
 
