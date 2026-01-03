@@ -1,4 +1,4 @@
-![Logo](http://svg.wiersma.co.za/github/project.v2?title=HomelabIO&tag=rack%20mount%20carrier%20board)
+![Logo](http://svg.wiersma.co.za/github/project.v2?title=HomeLabIO&tag=rack%20mount%20carrier%20board)
 
 [![GitHub release](https://img.shields.io/github/release/nrwiersma/homelabio.svg)](https://github.com/nrwiersma/homelabio/releases)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/nrwiersma/homelabio/master/LICENSE)
