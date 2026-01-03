@@ -1,4 +1,8 @@
-![Logo](http://svg.wiersma.co.za/github/project.v2?title=homelabio&tag=rack%20mount%20carrier%20board)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="http://svg.wiersma.co.za/github/project.v2?title=homelabio&tag=rack%20mount%20carrier%20board&mode=dark">
+  <source media="(prefers-color-scheme: light)" srcset="http://svg.wiersma.co.za/github/project.v2?title=homelabio&tag=rack%20mount%20carrier%20board">
+  <img alt="Logo" src="http://svg.wiersma.co.za/github/project.v2?title=homelabio&tag=rack%20mount%20carrier%20board">
+</picture>
 
 ![board image](assets/assembled.png)
 
